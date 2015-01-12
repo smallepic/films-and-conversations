@@ -1,3 +1,387 @@
 //
 // Modules
 // --------------------------------------------------
+
+
+// Backgrounds
+// -------------------------
+
+.background
+{
+  position: relative;
+
+  &:before,
+  &:after
+  {
+    bottom: 0;
+    content: '';
+    display: block;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  &:before
+  {
+    z-index: -1;
+  }
+
+  &:after
+  {
+    background-color: black;
+    z-index: -2;
+  }
+}
+
+.background-tims-vermeer
+{
+  &:before
+  {
+    background-image: url(/images/background-tims-vermeer.jpg);
+    background-position: 50% 50%;
+    background-size: cover;
+    opacity: 0.5;
+  }
+}
+
+.background-finding-vivian-maier
+{
+  &:before
+  {
+    background-image: url(/images/background-finding-vivian-maier.jpg);
+    background-position: 50% 25%;
+    background-size: cover;
+    opacity: 0.5;
+  }
+}
+
+
+// Masthead
+// -------------------------
+
+.masthead
+{
+  @include outer-container;
+  height: modular-scale(6);
+
+  .masthead-title
+  {
+    color: white;
+    font-size: modular-scale(1);
+    font-style: italic;
+    float: left;
+    line-height: 1;
+    padding-bottom: modular-scale(-1);
+    padding-top: modular-scale(-1);
+    @include printers-shade(black, 40);
+    text-transform: uppercase;
+    @include transform(rotate(-7deg));
+  }
+
+  .masthead-navigation-menu
+  {
+    float: right;
+    text-align: right;
+
+    li
+    {
+      display: inline-block;
+
+      & + li
+      {
+        margin-left: $font-size-base;
+      }
+    }
+  }
+
+  .masthead-navigation-link
+  {
+    color: white;
+    font-family: $font-sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    display: inline-block;
+    line-height: modular-scale(6);
+
+    &:hover,
+    &:focus,
+    &:active
+    {
+      color: yellow;
+      @include transition(all 0.2s linear);
+    }
+  }
+}
+
+
+// Headline
+// -------------------------
+
+.headline
+{
+  @include outer-container;
+  color: yellow;
+  padding-bottom: modular-scale(7);
+  padding-top: modular-scale(7);
+
+  .headline-title
+  {
+    font-size: modular-scale(6);
+    line-height: 1;
+    margin-bottom: modular-scale(-2);
+    text-transform: uppercase;
+
+    &:before
+    {
+      content: 'Presenting';
+      display: block;
+      font-size: modular-scale(-5);
+    }
+  }
+
+  .headline-body
+  {
+    font-family: $font-sans-serif;
+    font-size: modular-scale(1);
+    margin-bottom: modular-scale(1);
+  }
+
+  .headline-call-to-actions
+  {
+    font-size: modular-scale(1);
+  }
+}
+
+
+// Footer
+// -------------------------
+
+.footer
+{
+  @include outer-container;
+  padding-bottom: modular-scale(-1);
+  padding-top: modular-scale(-1);
+
+  .footer-body
+  {
+    font-family: $font-sans-serif;
+    font-size: modular-scale(0);
+    text-transform: uppercase;
+  }
+}
+
+
+// Container
+// -------------------------
+
+.section-container
+{
+  @include outer-container;
+  padding-bottom: modular-scale(5);
+  padding-top: modular-scale(5);
+
+  p
+  {
+    max-width: modular-scale(12);
+  }
+}
+
+
+// Header
+// -------------------------
+
+.section-header
+{
+  @include clearfix;
+  margin-bottom: modular-scale(5);
+}
+
+
+// Film
+// -------------------------
+
+.film-description
+{
+  float: left;
+}
+
+.film-details
+{
+  color: lighten($font-color, 25%);
+  float: left;
+  margin-left: modular-scale(4);
+  max-width: modular-scale(10);
+
+  dt
+  {
+    clear: left;
+    float: left;
+    font-weight: bold;
+    text-align: right;
+    width: modular-scale(6);
+
+    &:after
+    {
+      content: ':\00a0';
+    }
+  }
+
+  dd
+  {
+    margin-left: modular-scale(6);
+  }
+}
+
+// Venue
+// -------------------------
+
+.venue-map
+{
+  height: 20em;
+}
+
+
+// Tickets
+// -------------------------
+
+.tickets-widget
+{
+  max-width: modular-scale(13);
+}
+
+
+// About
+// -------------------------
+
+#section-about
+{
+  color: yellow;
+}
+
+.about-form-subscribe
+{
+  max-width: modular-scale(11);
+}
+
+
+// Buttons
+// -------------------------
+
+.button
+{
+  border: modular-scale(-6) solid yellow;
+  color: yellow;
+  display: inline-block;
+  font-family: $font-sans-serif;
+  padding: modular-scale(-4) modular-scale(2);
+  text-decoration: none;
+  text-transform: uppercase;
+  @include transition(all 0.2s linear);
+
+  &:hover,
+  &:focus,
+  &:active
+  {
+    color: white;
+    border-color: white;
+  }
+}
+
+
+// Lists
+// -------------------------
+
+.list-inline
+{
+  list-style: none;
+
+  li
+  {
+    display: inline-block;
+
+    & + li
+    {
+      margin-left: $font-size-base;
+    }
+  }
+}
+
+
+// Forms
+// -------------------------
+
+.form-input
+{
+  background-color: transparent;
+  border: modular-scale(-6) solid yellow;
+  color: yellow;
+  display: block;
+  font-family: $font-sans-serif;
+  font-size: modular-scale(1);
+  margin: 0;
+  margin-bottom: modular-scale(-2);
+  padding: modular-scale(-4) modular-scale(0);
+  text-decoration: none;
+  width: 100%;
+
+  &:hover,
+  &:focus
+  {
+    color: white;
+    border-color: white;
+    outline: none;
+  }
+}
+
+.form-button
+{
+  background-color: transparent;
+  border: modular-scale(-6) solid yellow;
+  color: yellow;
+  cursor: pointer;
+  display: block;
+  font-family: $font-sans-serif;
+  font-size: modular-scale(1);
+  margin: 0;
+  padding: modular-scale(-4) modular-scale(2);
+  text-transform: uppercase;
+
+  &:hover,
+  &:focus,
+  &:active
+  {
+    color: white;
+    border-color: white;
+  }
+}
+
+
+// Embeds
+// -------------------------
+
+.embed
+{
+  height: 0;
+  overflow: hidden;
+  position: relative;
+
+  embed,
+  object,
+  iframe
+  {
+    @include position(absolute, 0 null null 0);
+    @include size(100%);
+  }
+}
+
+.embed-16-9
+{
+  padding-bottom: 56.25%;
+}
+
+.embed-4-3
+{
+  padding-bottom: 75%;
+}

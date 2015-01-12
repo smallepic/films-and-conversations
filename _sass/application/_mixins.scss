@@ -1,0 +1,31 @@
+//
+// Mixins
+// --------------------------------------------------
+
+
+// Printer’s Shade
+// -------------------------
+
+@mixin printers-shade($color, $distance: 10, $size: 0.005em)
+{
+  $value: ();
+
+
+  @for $i from 0 to $distance
+  {
+    $offset: $size * $i;
+
+    $shadow-bottom: $offset;
+    $shadow: $size + $offset;
+
+    $shadow-bottom: join($shadow-bottom, $offset);
+    $shadow: join($shadow, $offset);
+
+    $shadow-bottom: join($shadow-bottom, $color);
+    $shadow: join($shadow, $color);
+    $value: append($value, $shadow-bottom, comma);
+    $value: append($value, $shadow, comma);
+  }
+
+  text-shadow: $value;
+}

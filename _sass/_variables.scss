@@ -1,3 +1,29 @@
 //
 // Variables
 // --------------------------------------------------
+
+
+$modular-scale-ratio: $perfect-fourth;
+$modular-scale-base: em($em-base);
+
+
+// Fonts
+// -------------------------
+
+$font-sans-serif: 'futura-pt', 'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif;
+$font-serif: 'chaparral-pro', Georgia, Cambria, 'Times New Roman', Times, serif;
+$font-color: #333333;
+$font-family-base: $font-serif;
+$font-size-base: modular-scale(0);
+
+
+// Line Height
+// -------------------------
+
+$line-height-base: modular-scale(1);
+
+
+// Spacing
+// -------------------------
+
+$spacing-base: $line-height-base * $font-size-base;

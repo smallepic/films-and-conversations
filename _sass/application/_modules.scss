@@ -64,6 +64,14 @@
 {
   @include outer-container;
   height: modular-scale(6);
+  padding-left: modular-scale(0);
+  padding-right: modular-scale(0);
+
+  @include media($breakpoint-container)
+  {
+    padding-left: 0;
+    padding-right: 0;
+  }
 
   .masthead-title
   {
@@ -123,8 +131,12 @@
 {
   @include outer-container;
   color: yellow;
-  padding-bottom: modular-scale(7);
-  padding-top: modular-scale(7);
+  padding: modular-scale(7) modular-scale(0);
+
+  @include media($breakpoint-container)
+  {
+    padding: modular-scale(7) 0;
+  }
 
   .headline-title
   {
@@ -179,8 +191,12 @@
 .section-container
 {
   @include outer-container;
-  padding-bottom: modular-scale(5);
-  padding-top: modular-scale(5);
+  padding: modular-scale(5) modular-scale(0);
+
+  @include media($breakpoint-container)
+  {
+    padding: modular-scale(5) 0;
+  }
 
   p
   {
@@ -234,12 +250,33 @@
   }
 }
 
+.film-trailer
+{
+  margin-left: modular-scale(-0) * -1;
+  margin-right: modular-scale(-0) * -1;
+
+  @include media($breakpoint-container)
+  {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
 // Venue
 // -------------------------
 
 .venue-map
 {
   height: 20em;
+
+  margin-left: modular-scale(0) * -1;
+  margin-right: modular-scale(0) * -1;
+
+  @include media($breakpoint-container)
+  {
+    margin-left: 0;
+    margin-right: 0;
+  }
 }
 
 

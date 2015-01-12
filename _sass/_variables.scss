@@ -3,8 +3,17 @@
 // --------------------------------------------------
 
 
+// Modular Scale
+// -------------------------
+
 $modular-scale-ratio: $perfect-fourth;
 $modular-scale-base: em($em-base);
+
+
+// Breakpoints
+// -------------------------
+
+$breakpoint-container: new-breakpoint(min-width $max-width);
 
 
 // Fonts

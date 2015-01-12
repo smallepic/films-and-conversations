@@ -63,12 +63,12 @@
 .masthead
 {
   @include outer-container;
-  height: modular-scale(6);
   padding-left: modular-scale(0);
   padding-right: modular-scale(0);
 
   @include media($breakpoint-container)
   {
+    height: modular-scale(6);
     padding-left: 0;
     padding-right: 0;
   }
@@ -113,11 +113,10 @@
   .masthead-navigation-link
   {
     color: white;
+    display: inline-block;
     font-family: $font-sans-serif;
     text-decoration: none;
     text-transform: uppercase;
-
-    display: inline-block;
     line-height: modular-scale(6);
 
     &:hover,
@@ -178,16 +177,19 @@
 
     li
     {
-      margin-bottom: modular-scale(0);
-
-      @include media($breakpoint-masthead)
+      @include media($breakpoint-headline)
       {
         display: inline-block;
-        margin-bottom: 0;
+      }
 
-        & + li
+      & + li
+      {
+        margin-top: modular-scale(0);
+
+        @include media($breakpoint-headline)
         {
           margin-left: $font-size-base;
+          margin-top: 0;
         }
       }
     }

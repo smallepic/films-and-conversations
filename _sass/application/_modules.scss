@@ -257,15 +257,24 @@
 
 .film-description
 {
-  float: left;
+  @include media($breakpoint-film)
+  {
+    float: left;
+  }
 }
 
 .film-details
 {
   color: lighten($font-color, 25%);
-  float: left;
-  margin-left: modular-scale(4);
+  margin-top: modular-scale(5);
   max-width: modular-scale(10);
+
+  @include media($breakpoint-film)
+  {
+    float: left;
+    margin-left: modular-scale(4);
+    margin-top: 0;
+  }
 
   dt
   {

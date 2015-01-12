@@ -78,19 +78,26 @@
     color: white;
     font-size: modular-scale(1);
     font-style: italic;
-    float: left;
     line-height: 1;
     padding-bottom: modular-scale(-1);
     padding-top: modular-scale(-1);
     @include printers-shade(black, 40);
     text-transform: uppercase;
     @include transform(rotate(-7deg));
+
+    @include media($breakpoint-masthead)
+    {
+      float: left;
+    }
   }
 
   .masthead-navigation-menu
   {
-    float: right;
-    text-align: right;
+    @include media($breakpoint-masthead)
+    {
+      float: right;
+      text-align: right;
+    }
 
     li
     {
@@ -140,10 +147,15 @@
 
   .headline-title
   {
-    font-size: modular-scale(6);
+    font-size: modular-scale(5);
     line-height: 1;
     margin-bottom: modular-scale(-2);
     text-transform: uppercase;
+
+    @include media($breakpoint-headline)
+    {
+      font-size: modular-scale(6);
+    }
 
     &:before
     {
@@ -163,6 +175,29 @@
   .headline-call-to-actions
   {
     font-size: modular-scale(1);
+
+    li
+    {
+      margin-bottom: modular-scale(0);
+
+      @include media($breakpoint-masthead)
+      {
+        display: inline-block;
+        margin-bottom: 0;
+
+        & + li
+        {
+          margin-left: $font-size-base;
+        }
+      }
+    }
+  }
+
+  .headline-button
+  {
+    display: block;
+    text-align: center;
+    width: 100%;
   }
 }
 
@@ -323,25 +358,6 @@
   {
     color: white;
     border-color: white;
-  }
-}
-
-
-// Lists
-// -------------------------
-
-.list-inline
-{
-  list-style: none;
-
-  li
-  {
-    display: inline-block;
-
-    & + li
-    {
-      margin-left: $font-size-base;
-    }
   }
 }
 

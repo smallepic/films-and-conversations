@@ -14,6 +14,8 @@ $modular-scale-base: em($em-base);
 // -------------------------
 
 $breakpoint-container: new-breakpoint(min-width $max-width);
+$breakpoint-masthead: new-breakpoint(min-width em(450));
+$breakpoint-headline: new-breakpoint(min-width em(450));
 
 
 // Fonts

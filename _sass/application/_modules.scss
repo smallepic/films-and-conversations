@@ -426,14 +426,14 @@
 .form-input
 {
   background-color: transparent;
-  border: modular-scale(-6) solid yellow;
+  border: modular-scale(-5) solid yellow;
   color: yellow;
   display: block;
   font-family: $font-sans-serif;
-  font-size: modular-scale(1);
+  font-size: modular-scale(0);
   margin: 0;
   margin-bottom: modular-scale(-2);
-  padding: modular-scale(-4) modular-scale(0);
+  padding: modular-scale(-3) modular-scale(0);
   text-decoration: none;
   width: 100%;
 
@@ -455,9 +455,16 @@
   display: block;
   font-family: $font-sans-serif;
   font-size: modular-scale(1);
+  line-height: modular-scale(0);
   margin: 0;
   padding: modular-scale(-4) modular-scale(2);
   text-transform: uppercase;
+  width: 100%;
+
+  @include media($breakpoint-medium)
+  {
+    width: auto;
+  }
 
   &:hover,
   &:focus,

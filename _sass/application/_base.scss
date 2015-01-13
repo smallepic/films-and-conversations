@@ -127,3 +127,9 @@ strong
 {
   font-weight: bold;
 }
+
+input
+{
+  @include appearance(none);
+  border-radius: 0;
+}

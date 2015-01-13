@@ -237,14 +237,21 @@
 .footer
 {
   @include outer-container;
-  padding-bottom: modular-scale(-1);
-  padding-top: modular-scale(-1);
+  padding-bottom: modular-scale(2);
+  padding-left: modular-scale(0);
+  padding-right: modular-scale(0);
+  padding-top: modular-scale(2);
 
-  .footer-body
+  @include media($breakpoint-medium)
   {
-    font-family: $font-sans-serif;
-    font-size: modular-scale(0);
-    text-transform: uppercase;
+    padding-bottom: modular-scale(5);
+    padding-top: modular-scale(5);
+  }
+
+  @include media($breakpoint-large)
+  {
+    padding-left: 0;
+    padding-right: 0;
   }
 }
 
@@ -370,15 +377,15 @@
 }
 
 
-// About
+// Subscribe
 // -------------------------
 
-#section-about
+.section-subscribe
 {
   color: yellow;
 }
 
-.about-form-subscribe
+.subscribe-form
 {
   margin-left: modular-scale(0);
   margin-right: modular-scale(0);

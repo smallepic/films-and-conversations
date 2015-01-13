@@ -116,6 +116,16 @@ p
 {
   font-size: modular-scale(1);
   line-height: modular-scale(1);
+
+  & + p
+  {
+    margin-top: modular-scale(1);
+  }
+}
+
+a
+{
+  color: inherit;
 }
 
 em

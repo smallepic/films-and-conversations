@@ -95,8 +95,14 @@ h2
 {
   font-size: modular-scale(3);
   line-height: modular-scale(0);
-  margin-bottom: modular-scale(2);
   text-transform: uppercase;
+
+  margin-bottom: modular-scale(-1);
+
+  @include media($breakpoint-medium)
+  {
+    margin-bottom: modular-scale(2);
+  }
 }
 
 h3

@@ -13,9 +13,8 @@ $modular-scale-base: em($em-base);
 // Breakpoints
 // -------------------------
 
-$breakpoint-container: new-breakpoint(min-width $max-width);
-$breakpoint-masthead: new-breakpoint(min-width em(450));
-$breakpoint-headline: new-breakpoint(min-width em(450));
+$breakpoint-large: new-breakpoint(min-width ($max-width + (modular-scale(0) * 2)));
+$breakpoint-medium: new-breakpoint(min-width em(450));
 $breakpoint-film: new-breakpoint(min-width em(1034));
 
 

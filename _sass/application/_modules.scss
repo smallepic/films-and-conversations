@@ -66,7 +66,7 @@
   padding-left: modular-scale(0);
   padding-right: modular-scale(0);
 
-  @include media($breakpoint-container)
+  @include media($breakpoint-large)
   {
     height: modular-scale(6);
     padding-left: 0;
@@ -85,15 +85,25 @@
     text-transform: uppercase;
     @include transform(rotate(-7deg));
 
-    @include media($breakpoint-masthead)
+    @include media($breakpoint-medium)
     {
       float: left;
     }
   }
 
+  .masthead-navigation
+  {
+    margin-top: modular-scale(0);
+
+    @include media($breakpoint-medium)
+    {
+      margin-top: 0;
+    }
+  }
+
   .masthead-navigation-menu
   {
-    @include media($breakpoint-masthead)
+    @include media($breakpoint-medium)
     {
       float: right;
       text-align: right;
@@ -117,7 +127,12 @@
     font-family: $font-sans-serif;
     text-decoration: none;
     text-transform: uppercase;
-    line-height: modular-scale(6);
+    line-height: modular-scale(3);
+
+    @include media($breakpoint-medium)
+    {
+      line-height: modular-scale(6);
+    }
 
     &:hover,
     &:focus,
@@ -137,12 +152,24 @@
 {
   @include outer-container;
   color: yellow;
-  padding: modular-scale(7) modular-scale(0);
 
-  @include media($breakpoint-container)
+  padding-bottom: modular-scale(2);
+  padding-left: modular-scale(0);
+  padding-right: modular-scale(0);
+  padding-top: modular-scale(2);
+
+  @include media($breakpoint-medium)
   {
-    padding: modular-scale(7) 0;
+    padding-bottom: modular-scale(7);
+    padding-top: modular-scale(7);
   }
+
+  @include media($breakpoint-large)
+  {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
 
   .headline-title
   {
@@ -151,7 +178,7 @@
     margin-bottom: modular-scale(-2);
     text-transform: uppercase;
 
-    @include media($breakpoint-headline)
+    @include media($breakpoint-medium)
     {
       font-size: modular-scale(6);
     }
@@ -177,7 +204,7 @@
 
     li
     {
-      @include media($breakpoint-headline)
+      @include media($breakpoint-medium)
       {
         display: inline-block;
       }
@@ -186,7 +213,7 @@
       {
         margin-top: modular-scale(0);
 
-        @include media($breakpoint-headline)
+        @include media($breakpoint-medium)
         {
           margin-left: $font-size-base;
           margin-top: 0;
@@ -228,11 +255,21 @@
 .section-container
 {
   @include outer-container;
-  padding: modular-scale(5) modular-scale(0);
+  padding-bottom: modular-scale(2);
+  padding-left: modular-scale(0);
+  padding-right: modular-scale(0);
+  padding-top: modular-scale(2);
 
-  @include media($breakpoint-container)
+  @include media($breakpoint-medium)
   {
-    padding: modular-scale(5) 0;
+    padding-bottom: modular-scale(5);
+    padding-top: modular-scale(5);
+  }
+
+  @include media($breakpoint-large)
+  {
+    padding-left: 0;
+    padding-right: 0;
   }
 
   p
@@ -248,7 +285,12 @@
 .section-header
 {
   @include clearfix;
-  margin-bottom: modular-scale(5);
+  margin-bottom: modular-scale(2);
+
+  @include media($breakpoint-medium)
+  {
+    margin-bottom: modular-scale(5);
+  }
 }
 
 
@@ -266,8 +308,13 @@
 .film-details
 {
   color: lighten($font-color, 25%);
-  margin-top: modular-scale(5);
+  margin-top: modular-scale(2);
   max-width: modular-scale(10);
+
+  @include media($breakpoint-medium)
+  {
+    margin-top: modular-scale(5);
+  }
 
   @include media($breakpoint-film)
   {
@@ -301,7 +348,7 @@
   margin-left: modular-scale(-0) * -1;
   margin-right: modular-scale(-0) * -1;
 
-  @include media($breakpoint-container)
+  @include media($breakpoint-large)
   {
     margin-left: 0;
     margin-right: 0;
@@ -318,7 +365,7 @@
   margin-left: modular-scale(0) * -1;
   margin-right: modular-scale(0) * -1;
 
-  @include media($breakpoint-container)
+  @include media($breakpoint-large)
   {
     margin-left: 0;
     margin-right: 0;

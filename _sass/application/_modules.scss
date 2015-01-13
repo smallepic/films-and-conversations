@@ -256,20 +256,12 @@
 {
   @include outer-container;
   padding-bottom: modular-scale(2);
-  padding-left: modular-scale(0);
-  padding-right: modular-scale(0);
   padding-top: modular-scale(2);
 
   @include media($breakpoint-medium)
   {
     padding-bottom: modular-scale(5);
     padding-top: modular-scale(5);
-  }
-
-  @include media($breakpoint-large)
-  {
-    padding-left: 0;
-    padding-right: 0;
   }
 
   p
@@ -286,10 +278,18 @@
 {
   @include clearfix;
   margin-bottom: modular-scale(2);
+  padding-left: modular-scale(0);
+  padding-right: modular-scale(0);
 
   @include media($breakpoint-medium)
   {
     margin-bottom: modular-scale(5);
+  }
+
+  @include media($breakpoint-large)
+  {
+    padding-left: 0;
+    padding-right: 0;
   }
 }
 
@@ -343,17 +343,6 @@
   }
 }
 
-.film-trailer
-{
-  margin-left: modular-scale(-0) * -1;
-  margin-right: modular-scale(-0) * -1;
-
-  @include media($breakpoint-large)
-  {
-    margin-left: 0;
-    margin-right: 0;
-  }
-}
 
 // Venue
 // -------------------------
@@ -361,15 +350,6 @@
 .venue-map
 {
   height: 20em;
-
-  margin-left: modular-scale(0) * -1;
-  margin-right: modular-scale(0) * -1;
-
-  @include media($breakpoint-large)
-  {
-    margin-left: 0;
-    margin-right: 0;
-  }
 }
 
 
@@ -378,7 +358,15 @@
 
 .tickets-widget
 {
+  margin-left: modular-scale(0);
+  margin-right: modular-scale(0);
   max-width: modular-scale(13);
+
+  @include media($breakpoint-large)
+  {
+    margin-left: 0;
+    margin-right: 0;
+  }
 }
 
 
@@ -392,7 +380,15 @@
 
 .about-form-subscribe
 {
+  margin-left: modular-scale(0);
+  margin-right: modular-scale(0);
   max-width: modular-scale(11);
+
+  @include media($breakpoint-large)
+  {
+    margin-left: 0;
+    margin-right: 0;
+  }
 }
 
 

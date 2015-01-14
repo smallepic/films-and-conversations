@@ -1,5 +1,6 @@
 var container = document.getElementById('venue-google-map');
 var address = container.getAttribute('data-address');
+var url = container.getAttribute('data-url');
 var info_window = container.getAttribute('data-info-window');
 var geocoder = new google.maps.Geocoder();
 var options =
@@ -20,5 +21,9 @@ geocoder.geocode({address: address}, function(results, status)
     var marker = new google.maps.Marker({map: map, position: results[0].geometry.location, title: address});
 
     map.setCenter(new google.maps.LatLng(marker.getPosition().lat(), marker.getPosition().lng()));
+
+    google.maps.event.addDomListener(container, 'click', function() { window.open(url, '_self'); });
+
+    container.style.display = 'block';
   }
 });

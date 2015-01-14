@@ -169,65 +169,64 @@
     padding-left: 0;
     padding-right: 0;
   }
+}
 
+.headline-title
+{
+  font-size: modular-scale(5);
+  line-height: 1;
+  margin-bottom: modular-scale(-2);
+  text-transform: uppercase;
 
-  .headline-title
+  @include media($breakpoint-medium)
   {
-    font-size: modular-scale(5);
-    line-height: 1;
-    margin-bottom: modular-scale(-2);
-    text-transform: uppercase;
+    font-size: modular-scale(6);
+  }
 
+  &:before
+  {
+    content: 'Presenting';
+    display: block;
+    font-size: modular-scale(-5);
+  }
+}
+
+.headline-body
+{
+  font-family: $font-sans-serif;
+  font-size: modular-scale(1);
+  margin-bottom: modular-scale(1);
+}
+
+.headline-call-to-actions
+{
+  font-size: modular-scale(1);
+
+  li
+  {
     @include media($breakpoint-medium)
     {
-      font-size: modular-scale(6);
+      display: inline-block;
     }
 
-    &:before
+    & + li
     {
-      content: 'Presenting';
-      display: block;
-      font-size: modular-scale(-5);
-    }
-  }
+      margin-top: modular-scale(0);
 
-  .headline-body
-  {
-    font-family: $font-sans-serif;
-    font-size: modular-scale(1);
-    margin-bottom: modular-scale(1);
-  }
-
-  .headline-call-to-actions
-  {
-    font-size: modular-scale(1);
-
-    li
-    {
       @include media($breakpoint-medium)
       {
-        display: inline-block;
-      }
-
-      & + li
-      {
-        margin-top: modular-scale(0);
-
-        @include media($breakpoint-medium)
-        {
-          margin-left: $font-size-base;
-          margin-top: 0;
-        }
+        margin-left: $font-size-base;
+        margin-top: 0;
       }
     }
   }
+}
 
-  .headline-button
-  {
-    display: block;
-    text-align: center;
-    width: 100%;
-  }
+.headline-button
+{
+  display: block;
+  text-align: center;
+  width: 100%;
 }
 
 
@@ -426,6 +425,35 @@
     border-color: white;
   }
 }
+
+.button-twitter
+{
+  border-color: #00ACED;
+  color: #00ACED;
+
+  &:hover,
+  &:focus,
+  &:active
+  {
+    color: lighten(#00ACED, 25%);
+    border-color: lighten(#00ACED, 25%);
+  }
+}
+
+.button-facebook
+{
+  border-color: #3B5998;
+  color: #3B5998;
+
+  &:hover,
+  &:focus,
+  &:active
+  {
+    color: lighten(#3B5998, 25%);
+    border-color: lighten(#3B5998, 25%);
+  }
+}
+
 
 // Forms
 // -------------------------

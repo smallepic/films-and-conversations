@@ -117,7 +117,8 @@ p
   font-size: modular-scale(1);
   line-height: modular-scale(1);
 
-  & + p
+  & + p, & + blockquote, & + pre,
+  & + dl, & + ol, & + ul
   {
     margin-top: modular-scale(1);
   }

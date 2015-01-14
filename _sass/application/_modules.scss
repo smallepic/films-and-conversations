@@ -236,17 +236,8 @@
 
 .footer
 {
-  @include outer-container;
-  padding-bottom: modular-scale(2);
   padding-left: modular-scale(0);
   padding-right: modular-scale(0);
-  padding-top: modular-scale(2);
-
-  @include media($breakpoint-medium)
-  {
-    padding-bottom: modular-scale(5);
-    padding-top: modular-scale(5);
-  }
 
   @include media($breakpoint-large)
   {

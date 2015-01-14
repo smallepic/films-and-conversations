@@ -80,6 +80,7 @@
     font-size: modular-scale(1);
     font-style: italic;
     line-height: 1;
+    margin-left: modular-scale(-8) * -1;
     padding-bottom: modular-scale(-1);
     padding-top: modular-scale(-1);
     @include printers-shade(black, 60);
@@ -91,6 +92,11 @@
     @include media($breakpoint-medium)
     {
       float: left;
+    }
+
+    &::first-letter
+    {
+      padding-left: modular-scale(-8);
     }
 
     &:hover,

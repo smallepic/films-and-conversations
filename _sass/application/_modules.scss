@@ -233,13 +233,6 @@
   }
 }
 
-.headline-button
-{
-  display: block;
-  text-align: center;
-  width: 100%;
-}
-
 
 // Footer
 // -------------------------
@@ -407,12 +400,19 @@
 {
   border: modular-scale(-6) solid $font-color;
   color: $font-color;
-  display: inline-block;
+  display: block;
   font-family: $font-sans-serif;
+  line-height: modular-scale(0);
   padding: modular-scale(-4) modular-scale(2);
+  text-align: center;
   text-decoration: none;
   text-transform: uppercase;
   @include transition(all 0.2s linear);
+
+  @include media($breakpoint-medium)
+  {
+    display: inline-block;
+  }
 
   &:hover,
   &:focus,

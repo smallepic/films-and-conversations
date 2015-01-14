@@ -81,13 +81,23 @@
     line-height: 1;
     padding-bottom: modular-scale(-1);
     padding-top: modular-scale(-1);
-    @include printers-shade(black, 40);
+    @include printers-shade(black, 60);
+    text-decoration: none;
     text-transform: uppercase;
     @include transform(rotate(-7deg));
+    @include transition(all 0.2s linear);
 
     @include media($breakpoint-medium)
     {
       float: left;
+    }
+
+    &:hover,
+    &:focus,
+    &:active
+    {
+      color: yellow;
+      @include printers-shade(black, 100);
     }
   }
 

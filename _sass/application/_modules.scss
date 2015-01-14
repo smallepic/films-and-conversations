@@ -395,8 +395,8 @@
 
 .button
 {
-  border: modular-scale(-6) solid yellow;
-  color: yellow;
+  border: modular-scale(-6) solid $font-color;
+  color: $font-color;
   display: inline-block;
   font-family: $font-sans-serif;
   padding: modular-scale(-4) modular-scale(2);
@@ -408,11 +408,24 @@
   &:focus,
   &:active
   {
+    color: lighten($font-color, 25%);
+    border-color: lighten($font-color, 25%);
+  }
+}
+
+.button-alternate
+{
+  border-color: yellow;
+  color: yellow;
+
+  &:hover,
+  &:focus,
+  &:active
+  {
     color: white;
     border-color: white;
   }
 }
-
 
 // Forms
 // -------------------------

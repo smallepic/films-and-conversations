@@ -445,6 +445,20 @@
   }
 }
 
+.button-error
+{
+  border-color: red;
+  color: red;
+
+  &:hover,
+  &:focus,
+  &:active
+  {
+    color: white;
+    border-color: white;
+  }
+}
+
 .button-twitter
 {
   border-color: #00ACED;

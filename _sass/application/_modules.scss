@@ -56,6 +56,17 @@
   }
 }
 
+.background-the-human-scale
+{
+  &:before
+  {
+    background-image: url(/images/background-the-human-scale.jpg);
+    background-position: 50% 25%;
+    background-size: cover;
+    opacity: 0.5;
+  }
+}
+
 
 // Masthead
 // -------------------------

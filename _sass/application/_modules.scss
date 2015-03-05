@@ -56,6 +56,17 @@
   }
 }
 
+.background-page-one
+{
+  &:before
+  {
+    background-image: url(/images/background-page-one.jpg);
+    background-position: 50% 25%;
+    background-size: cover;
+    opacity: 0.5;
+  }
+}
+
 .background-the-human-scale
 {
   &:before

@@ -56,6 +56,17 @@
   }
 }
 
+.background-jiro-dreams-of-sushi
+{
+  &:before
+  {
+    background-image: url(/images/background-jiro-dreams-of-sushi.jpg);
+    background-position: 50% 25%;
+    background-size: cover;
+    opacity: 0.5;
+  }
+}
+
 .background-page-one
 {
   &:before

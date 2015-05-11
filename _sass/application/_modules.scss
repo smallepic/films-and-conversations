@@ -259,15 +259,19 @@
       display: inline-block;
     }
 
+
+    &:not(:last-child)
+    {
+      @include media($breakpoint-medium)
+      {
+        margin-right: $font-size-base;
+        margin-top: 0;
+      }
+    }
+
     & + li
     {
       margin-top: modular-scale(0);
-
-      @include media($breakpoint-medium)
-      {
-        margin-left: $font-size-base;
-        margin-top: 0;
-      }
     }
   }
 }

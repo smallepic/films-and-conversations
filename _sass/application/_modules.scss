@@ -77,6 +77,16 @@
     opacity: 0.5;
   }
 }
+.background-the-artist-is-present
+{
+  &:before
+  {
+    background-image: url(/images/background-the-artist-is-present.jpg);
+    background-position: 50% 25%;
+    background-size: cover;
+    opacity: 0.5;
+  }
+}
 
 .background-the-human-scale
 {

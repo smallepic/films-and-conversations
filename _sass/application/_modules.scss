@@ -67,6 +67,17 @@
   }
 }
 
+.background-objectified
+{
+  &:before
+  {
+    background-image: url(/images/background-objectified.png);
+    background-position: 50% 50%;
+    background-size: cover;
+    opacity: 0.5;
+  }
+}
+
 .background-page-one
 {
   &:before
@@ -77,6 +88,7 @@
     opacity: 0.5;
   }
 }
+
 .background-the-artist-is-present
 {
   &:before

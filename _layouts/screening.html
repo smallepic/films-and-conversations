@@ -4,7 +4,7 @@
   {% include head.html %}
 
   <body>
-    <div class="background {{ page.title | slugify | prepend: 'background-' }}">
+    <div class="background {{ page.id | split: '/' | last | slugify | prepend: 'background-' }}">
       {% include masthead.html %}
 
       <section class="headline">

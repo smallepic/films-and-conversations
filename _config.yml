@@ -1,3 +1,5 @@
 destination: public
+future: true
+permalink: /screenings/:title
 title: Films &amp; Conversations
 url: http://filmsandconversations.com/

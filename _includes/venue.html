@@ -1,0 +1,15 @@
+<section id="venue" class="section-container">
+  <header class="section-header">
+    <h2>Venue</h2>
+    <p><strong>{{ page.screening.venue.name }}</strong><br>{{ page.screening.venue.street }}<br>{{ page.screening.venue.postcode }}, {{ page.screening.venue.locality }}<br>{{ page.screening.venue.city }}, {{ page.screening.venue.country }}</p>
+    <p><a href="{{ page.screening.venue.google_maps_url }}" class="button">Google Maps</a></p>
+  </header>
+
+  <figure>
+    <div id="venue-google-map" class="venue-map" data-address="{{ page.screening.venue.name }}, {{ page.screening.venue.street }}, {{ page.screening.venue.postcode }}, {{ page.screening.venue.locality }}, {{ page.screening.venue.city }}, {{ page.screening.venue.country }}" data-url="{{ page.screening.venue.google_maps_url }}"></div>
+  </figure>
+</section>
+
+<script src="https://maps.googleapis.com/maps/api/js?v=3.18" type="text/javascript"></script>
+<script src="/javascripts/google-map.js" type="text/javascript"></script>
+<script type="text/javascript">map(document.getElementById('venue-google-map'));</script>

@@ -9,10 +9,22 @@
 
       <section class="headline">
         <h1 class="headline-title">{{ page.film.title }}</h1>
-        <p class="headline-body">{{ page.screening.date | date: "%l:%M %p" }} &middot; {{ page.screening.date | date: "%A, %e %B, %Y" }} &middot; {{ page.screening.venue.name }}, {{ page.screening.venue.city }}, {{ page.screening.venue.country }}</p>
+        <ul class="headline-details">
+          {% if page.dinner %}
+          <li>{{ page.dinner.date | date: "%l:%M %p" }} (Dinner)</li>
+          <li>{{ page.screening.date | date: "%l:%M %p" }} (Screening)</li>
+          {% else %}
+          <li>{{ page.screening.date | date: "%l:%M %p" }}</li>
+          {% endif %}
+          <li>{{ page.screening.date | date: "%A, %e %B, %Y" }}</li>
+          <li>{{ page.screening.venue.name }}, {{ page.screening.venue.city }}, {{ page.screening.venue.country }}</li>
+        </ul>
         <ul class="headline-call-to-actions">
           <li><a href="#tickets" class="button button-alternate">Tickets</a></li>
           <li><a href="#film" class="button button-alternate">Trailer</a></li>
+          {% if page.dinner %}
+          <li><a href="#dinner" class="button button-alternate">Dinner</a></li>
+          {% endif %}
         </ul>
       </section>
     </div>
@@ -21,6 +33,8 @@
     
     {% include venue.html %}
 
+    {% include dinner.html %}
+    
     {% include tickets.html %}
 
     {% include subscribe.html %}

@@ -14,7 +14,7 @@ screening:
     google_maps_url: https://www.google.de/maps/place/Das+Filmcafé/@52.543592,13.41985,17z/data=!4m6!1m3!3m2!1s0x47a84dff985f5863:0x6730066f8aa942d6!2sDas+Filmcafé!3m1!1s0x47a84dff985f5863:0x6730066f8aa942d6
 film:
   title: The Salt of the Earth
-  director: Wim Wenders & Juliano 
+  director: Wim Wenders & Juliano Ribeiro Salgado 
   cast: Sebastião Salgado, Wim Wenders, Juliano Ribeiro Salgado
   genre: Documentary
   running_time: 109

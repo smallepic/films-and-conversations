@@ -1,0 +1,24 @@
+{% if page.dinner %}
+<section id="dinner" class="section-container">
+  <header class="section-header">
+    <h2>Dinner</h2>
+    <div class="film-description">
+      {{ page.dinner.description | markdownify }}
+    </div>
+    <dl class="film-details">
+      <dt>Location</dt>
+      <dd><strong>{{ page.dinner.restaurant.name }}</strong><br>{{ page.dinner.restaurant.street }}<br>{{ page.dinner.restaurant.postcode }}, {{ page.dinner.restaurant.locality }}<br>{{ page.dinner.restaurant.city }}, {{ page.dinner.restaurant.country }}</dd>
+      <dt>Cuisine</dt>
+      <dd>{{ page.dinner.restaurant.cuisine }}</dd>
+      <dt>Links</dt>
+      <dd><a href="{{ page.dinner.restaurant.url }}">Website</a>, <a href="{{ page.dinner.restaurant.foursquare_url }}">Foursquare</a></dd>
+    </dl>
+  </header>
+
+  <figure>
+    <div id="dinner-google-map" class="venue-map" data-address="{{ page.dinner.restaurant.name }}, {{ page.dinner.restaurant.street }}, {{ page.dinner.restaurant.postcode }}, {{ page.dinner.restaurant.locality }}, {{ page.dinner.restaurant.city }}, {{ page.dinner.restaurant.country }}" data-url="{{ page.dinner.restaurant.google_maps_url }}"></div>
+  </figure>
+</section>
+
+<script type="text/javascript">map(document.getElementById('dinner-google-map'));</script>
+{% endif %}

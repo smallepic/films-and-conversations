@@ -292,6 +292,42 @@
   margin-bottom: modular-scale(1);
 }
 
+.headline-details
+{
+  font-family: $font-sans-serif;
+  font-size: modular-scale(1);
+  margin-bottom: modular-scale(1);
+
+  li
+  {
+    @include media($breakpoint-medium)
+    {
+      display: inline-block;
+    }
+
+
+    &:not(:last-child)
+    {
+      @include media($breakpoint-medium)
+      {
+        margin-top: 0;
+
+        &:after
+        {
+          content: '\00B7';
+          margin-left: modular-scale(-4);
+          margin-right: modular-scale(-4);
+        }
+      }
+    }
+
+    & + li
+    {
+      margin-top: modular-scale(-3);
+    }
+  }
+}
+
 .headline-call-to-actions
 {
   font-size: modular-scale(1);

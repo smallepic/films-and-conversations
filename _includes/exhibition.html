@@ -1,0 +1,18 @@
+{% if page.exhibition %}
+<section id="exhibition" class="section-container">
+  <header class="section-header">
+    <h2>Exhibition</h2>
+    <div class="film-description">
+      {{ page.exhibition.description | markdownify }}
+    </div>
+    <dl class="film-details">
+      <dt>Location</dt>
+      <dd><strong>{{ page.exhibition.venue.name }}</strong><br>{{ page.exhibition.venue.street }}<br>{{ page.exhibition.venue.postcode }}, {{ page.exhibition.venue.locality }}<br>{{ page.exhibition.venue.city }}, {{ page.exhibition.venue.country }}</dd>
+      <dt>Dates</dt>
+      <dd>{{ page.exhibition.start_date | date: "%e %B" }}–{{ page.exhibition.end_date | date: "%e %B, %Y" }}</dd>
+      <dt>Links</dt>
+      <dd><a href="{{ page.exhibition.url }}">Website</a>, <a href="{{ page.exhibition.venue.url }}">{{ page.exhibition.venue.name }}</a></dd>
+    </dl>
+  </header>
+</section>
+{% endif %}

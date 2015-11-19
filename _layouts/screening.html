@@ -25,6 +25,9 @@
           {% if page.dinner %}
           <li><a href="#dinner" class="button button-alternate">Dinner</a></li>
           {% endif %}
+          {% if page.exhibition %}
+          <li><a href="#exhibition" class="button button-alternate">Exhibition</a></li>
+          {% endif %}
         </ul>
       </section>
     </div>
@@ -36,6 +39,8 @@
     {% include dinner.html %}
     
     {% include tickets.html %}
+
+    {% include exhibition.html %}
 
     {% include subscribe.html %}
 

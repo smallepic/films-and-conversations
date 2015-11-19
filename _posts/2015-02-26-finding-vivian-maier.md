@@ -23,6 +23,19 @@ film:
   url: http://www.findingvivianmaier.com/
   imdb_id: tt2714900
   vimeo_id: 118624692
+exhibition:
+  start_date: 2015-02-19
+  end_date: 2015-04-12
+  description: Why not follow up the screening with a visit to the *Vivian Maier—Street Photographer* exhibition—a selection of 120 works presented by [Friends of Willy-Brandt-Haus](http://www.freundeskreis-wbh.de/ausstellung/vivian-maier/).
+  url: http://www.freundeskreis-wbh.de/ausstellung/vivian-maier/
+  venue:
+    name: Willy-Brandt-Haus
+    street: Wilhelmstraße 140
+    postcode: 10963
+    locality: Kreuzberg
+    city: Berlin
+    country: Germany
+    url: http://www.willy-brandt-haus.de/kunst-kultur/ausstellulngen/vivian-maier/
 assets:
   image: http://filmsandconversations.com/images/background-finding-vivian-maier.jpg
 ---

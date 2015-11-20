@@ -1,0 +1,23 @@
+<section class="headline">
+  <h1 class="headline-title" data-number="{{ page.screening.number }}">{{ page.film.title }}</h1>
+  <ul class="headline-details">
+    {% if page.dinner %}
+    <li>{{ page.dinner.date | date: "%l:%M %p" }} (Dinner)</li>
+    <li>{{ page.screening.date | date: "%l:%M %p" }} (Screening)</li>
+    {% else %}
+    <li>{{ page.screening.date | date: "%l:%M %p" }}</li>
+    {% endif %}
+    <li>{{ page.screening.date | date: "%A, %e %B, %Y" }}</li>
+    <li>{{ page.screening.venue.name }}, {{ page.screening.venue.city }}, {{ page.screening.venue.country }}</li>
+  </ul>
+  <ul class="headline-call-to-actions">
+    <li><a href="#tickets" class="button button-alternate">Tickets</a></li>
+    <li><a href="#film" class="button button-alternate">Trailer</a></li>
+    {% if page.dinner %}
+    <li><a href="#dinner" class="button button-alternate">Dinner</a></li>
+    {% endif %}
+    {% if page.exhibition %}
+    <li><a href="#exhibition" class="button button-alternate">Exhibition</a></li>
+    {% endif %}
+  </ul>
+</section>

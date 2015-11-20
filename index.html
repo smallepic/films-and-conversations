@@ -1,92 +1,29 @@
 ---
 layout: application
-title: The Salt of the Earth
-description: Wim Wender&rsquo;s deeply considered portrait of visionary photographer, Sebastião Salgado.
-image: http://filmsandconversations.com/images/background-the-salt-of-the-earth.jpg
-vimeo: 145866874
-eventbrite: 19576190914
 ---
-<div class="background background-the-salt-of-the-earth">
+{% for post in site.posts limit: 1 %}
+<div class="background {{ post.id | split: '/' | last | slugify | prepend: 'background-' }}">
   {% include masthead.html %}
 
   <section class="headline">
-    <h1 class="headline-title">{{ page.title }}</h1>
-    <p class="headline-body">7:30 PM &middot; Thursday, 26 November, 2015 &middot; Das Filmcaf&eacute;, Berlin, Germany</p>
+    <h1 class="headline-title" data-number="{{ post.screening.number }}">{{ post.title }}</h1>
+    <ul class="headline-details">
+      {% if post.dinner %}
+      <li>{{ post.dinner.date | date: "%l:%M %p" }} (Dinner)</li>
+      <li>{{ post.screening.date | date: "%l:%M %p" }} (Screening)</li>
+      {% else %}
+      <li>{{ post.screening.date | date: "%l:%M %p" }}</li>
+      {% endif %}
+      <li>{{ post.screening.date | date: "%A, %e %B, %Y" }}</li>
+      <li>{{ post.screening.venue.name }}, {{ post.screening.venue.city }}, {{ post.screening.venue.country }}</li>
+    </ul>
     <ul class="headline-call-to-actions">
-      <li><a href="#tickets" class="button button-alternate">Tickets</a></li>
-      <li><a href="#film" class="button button-alternate">Trailer</a></li>
+      <li><a href="{{ post.url }}" class="button button-alternate">Tickets</a></li>
     </ul>
   </section>
 </div>
+{% endfor %}
 
-<section id="film" class="section-container">
-  <header class="section-header">
-    <h2>The Film</h2>
-    <div class="film-description">
-      <p>For the last 40 years, the photographer Sebasti&atilde;o Salgado has been travelling through the continents, in the footsteps of an ever-changing humanity.  He has witnessed some of the major events of our recent history; international conflicts, starvation and exodus.  He is now embarking on the discovery of pristine territories, of wild fauna and flora, and of grandiose landscapes as part of a huge photographic project, which is a tribute to the planet&rsquo;s beauty.</p>
-      <p>Sebasti&atilde;o Salgado&rsquo;s life and work are revealed to us by his son, Juliano, who went with him during his last travels, and by Wim Wenders, himself a photographer.</p>
-    </div>
-    <dl class="film-details">
-      <dt>Director</dt>
-      <dd>Wim Wenders &amp; Juliano Ribeiro Salgado</dd>
-      <dt>Cast</dt>
-      <dd>Sebasti&atilde;o Salgado, Wim Wenders, Juliano Ribeiro Salgado</dd>
-      <dt>Genre</dt>
-      <dd>Documentary</dd>
-      <dt>Run Time</dt>
-      <dd>109 minutes</dd>
-      <dt>Language</dt>
-      <dd>English</dd>
-      <dt>Links</dt>
-      <dd><a href="http://sonyclassics.com/thesaltoftheearth/">Website</a>, <a href="http://www.imdb.com/title/tt3674140/">IMDB</a></dd>
-    </dl>
-  </header>
+{% include archive.html %}
 
-  <figure class="embed embed-16-9">
-    <iframe src="//player.vimeo.com/video/{{ page.vimeo }}?title=0&amp;byline=0&amp;portrait=0&amp;color=ffff00" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-  </figure>
-</section>
-
-<section id="venue" class="section-container">
-  <header class="section-header">
-    <h2>Venue</h2>
-    <p><strong>Das Filmcaf&eacute;</strong><br>Schliemannstra&szlig;e 15<br>10437, Prenzlauer Berg<br>Berlin, Germany</p>
-    <p><a href="https://www.google.de/maps/place/Das+Filmcafé/@52.543592,13.41985,17z/data=!4m6!1m3!3m2!1s0x47a84dff985f5863:0x6730066f8aa942d6!2sDas+Filmcafé!3m1!1s0x47a84dff985f5863:0x6730066f8aa942d6" class="button">Google Maps</a></p>
-  </header>
-
-  <figure>
-    <div id="venue-google-map" class="venue-map" data-address="Das Filmcaf&eacute;, Schliemannstra&szlig;e 15, 10437, Prenzlauer Berg, Berlin, Germany" data-url="https://www.google.de/maps/place/Das+Filmcafé/@52.543592,13.41985,17z/data=!4m6!1m3!3m2!1s0x47a84dff985f5863:0x6730066f8aa942d6!2sDas+Filmcafé!3m1!1s0x47a84dff985f5863:0x6730066f8aa942d6"></div>
-  </figure>
-</section>
-
-<section id="tickets" class="section-container">
-  <header class="section-header">
-    <h2>Tickets</h2>
-    <p>Tickets can be purchased from Eventbrite.<br>Unfortunately, refunds cannot be given.</p>
-  </header>
-
-  <figure class="tickets-widget">
-    <iframe src="//eventbrite.com/tickets-external?eid={{ page.eventbrite }}&ref=etckt" frameborder="0" height="260" width="100%" scrolling="auto"></iframe>
-  </figure>
-</section>
-
-<div class="background background-babies">
-  <section id="subscribe" class="section-container section-subscribe">
-    <header class="section-header">
-      <h2>Subscribe</h2>
-      <p>Be the first to know about upcoming screenings and purchase tickets.<br>You can unsubscribe anytime.</p>
-    </header>
-
-    <form action="http://campaigns.smallepic.com/t/r/s/itjdsy/" method="post" class="subscribe-form">
-      <input name="cm-name" type="text" placeholder="Name" class="form-input" required>
-      <input name="cm-itjdsy-itjdsy" type="email" placeholder="Email" class="form-input" required>
-      <button type="submit" class="form-button">Subscribe</button>
-    </form>
-  </section>
-</div>
-
-<script src="https://maps.googleapis.com/maps/api/js?v=3.18" type="text/javascript"></script>
-<script src="/javascripts/google-map.js" type="text/javascript"></script>
-<script type="text/javascript">
-  map(document.getElementById('venue-google-map'));
-</script>
+{% include subscribe.html %}

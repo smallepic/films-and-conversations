@@ -2,6 +2,7 @@
 layout: screening
 title: Finding Vivian Maier
 screening:
+  number: 2
   date: 2015-02-26 19:30:00 CET
   eventbrite_id: 15749198276
   venue:

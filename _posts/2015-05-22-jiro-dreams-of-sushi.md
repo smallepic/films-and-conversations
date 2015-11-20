@@ -16,6 +16,7 @@ dinner:
     foursquare_url: https://foursquare.com/v/sasaya/4afdbfd8f964a520872a22e3
     google_maps_url: https://www.google.de/maps/place/Sasaya/@52.544361,13.418525,17z/data=!3m1!4b1!4m2!3m1!1s0x47a84dff7fc65425:0xa5112b5e44056103
 screening:
+  number: 5
   date: 2015-05-22 20:00:00 CET
   eventbrite_id: 16945749192
   venue:

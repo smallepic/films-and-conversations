@@ -2,6 +2,7 @@
 layout: screening
 title: Objectified
 screening:
+  number: 7
   date: 2015-07-30 19:30:00 CET
   eventbrite_id: 17839047070
   venue:

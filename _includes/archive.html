@@ -1,0 +1,14 @@
+<section class="section-container">
+  <header class="section-header">
+    <h2>Past Screenings</h2>
+  </header>
+
+  {% for post in site.posts offset: 1 %}
+  <article class="screening background background-inverted {{ post.id | split: '/' | last | slugify | prepend: 'background-' }}">
+    <a href="{{ post.url }}" class="screening-link">
+      <h1 class="screening-title" data-number="{{ post.screening.number }}">{{ post.title }}</h1>
+      <p class="screening-caption">{{ post.screening.date | date: "%e %B, %Y" }}</p>
+    </a>
+  </article>
+  {% endfor %}
+</section>

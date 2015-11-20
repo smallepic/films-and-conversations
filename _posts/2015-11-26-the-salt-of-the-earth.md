@@ -2,6 +2,7 @@
 layout: screening
 title: The Salt of the Earth
 screening:
+  number: 9
   date: 2015-11-26 19:30:00 CET
   eventbrite_id: 19576190914
   venue:

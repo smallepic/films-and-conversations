@@ -34,6 +34,25 @@
   }
 }
 
+.background-inverted
+{
+  &:after
+  {
+    background-color: white;
+    @include transition(all 0.2s linear);
+  }
+
+  &:hover,
+  &:focus,
+  &:active
+  {
+    &:after
+    {
+      background-color: black;
+    }
+  }
+}
+
 .background-babies
 {
   &:before
@@ -279,7 +298,7 @@
 
   &:before
   {
-    content: 'Presenting';
+    content: '\002116\00a0' attr(data-number);
     display: block;
     font-size: modular-scale(-5);
   }
@@ -493,6 +512,87 @@
     margin-left: 0;
     margin-right: 0;
   }
+}
+
+
+// Screening
+// -------------------------
+
+.screening
+{
+  float: left;
+  margin-bottom: modular-scale(-2);
+  width: flex-grid(6, 12);
+
+  @include media($breakpoint-large)
+  {
+    margin-bottom: modular-scale(1);
+    width: flex-grid(3, 12);
+  }
+
+  &:nth-of-type(2n)
+  {
+    margin-left: flex-gutter();
+  }
+
+  @include media($breakpoint-large)
+  {
+    &:not(:nth-of-type(4n + 1))
+    {
+      margin-left: flex-gutter();
+    }
+  }
+}
+
+.screening-link
+{
+  color: $font-color;
+  display: block;
+  height: modular-scale(9);
+  padding-bottom: modular-scale(1);
+  padding-left: modular-scale(0);
+  padding-right: modular-scale(0);
+  padding-top: modular-scale(1);
+  text-decoration: none;
+  @include transition(all 0.2s linear);
+
+  @include media($breakpoint-large)
+  {
+    height: modular-scale(10);
+  }
+
+  &:hover,
+  &:focus,
+  &:active
+  {
+    color: yellow;
+  }
+}
+
+.screening-title
+{
+  font-size: modular-scale(1);
+  line-height: 1;
+  text-transform: uppercase;
+
+  @include media($breakpoint-large)
+  {
+    font-size: modular-scale(2);
+  }
+
+  &:before
+  {
+    content: '\002116\00a0' attr(data-number);
+    display: block;
+    font-size: modular-scale(-3);
+  }
+}
+
+.screening-caption
+{
+  bottom: modular-scale(1);
+  font-size: modular-scale(0);
+  position: absolute;
 }
 
 

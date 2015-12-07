@@ -1,5 +1,5 @@
 ---
-layout: screening
+layout: application
 title: Tim’s Vermeer
 screening:
   number: 1

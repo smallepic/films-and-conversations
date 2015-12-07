@@ -4,7 +4,25 @@
   {% include head.html %}
 
   <body>
-    {{ content }}
+    {% if page.url == '/' %}
+      {% include header.html page=site.posts.first %}
+    {% else %}
+      {% include header.html page=page %}
+
+      {% include film.html %}
+
+      {% include venue.html %}
+
+      {% include dinner.html %}
+
+      {% include tickets.html %}
+
+      {% include exhibition.html %}
+    {% endif %}
+
+    {% include archive.html %}
+
+    {% include subscribe.html %}
 
     {% include footer.html %}
 

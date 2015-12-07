@@ -1,5 +1,5 @@
 ---
-layout: screening
+layout: application
 title: Objectified
 screening:
   number: 7

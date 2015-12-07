@@ -1,5 +1,5 @@
 ---
-layout: screening
+layout: application
 title: Jiro Dreams of Sushi
 dinner:
   date: 2015-05-22 18:00:00 CET

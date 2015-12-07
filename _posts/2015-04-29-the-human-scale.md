@@ -1,5 +1,5 @@
 ---
-layout: screening
+layout: application
 title: The Human Scale
 screening:
   number: 4

@@ -1,5 +1,5 @@
 ---
-layout: screening
+layout: application
 title: The Salt of the Earth
 screening:
   number: 9

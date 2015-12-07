@@ -1,0 +1,5 @@
+<div class="background {{ include.page.id | split: '/' | last | slugify | prepend: 'background-' }}">
+  {% include masthead.html %}
+
+  {% include headline.html page=include.page %}
+</div>

@@ -1,5 +1,5 @@
 ---
-layout: screening
+layout: application
 title: Finding Vivian Maier
 screening:
   number: 2

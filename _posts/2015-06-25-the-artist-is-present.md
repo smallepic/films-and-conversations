@@ -1,5 +1,5 @@
 ---
-layout: screening
+layout: application
 title: "Marina Abramović: The Artist is Present"
 screening:
   number: 6

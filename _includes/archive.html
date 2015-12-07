@@ -4,8 +4,8 @@
   </header>
 
   {% for post in site.posts offset: 1 %}
-  <article class="archive background background-inverted {{ post.id | split: '/' | last | slugify | prepend: 'background-' }}">
-    <a href="{{ post.url }}" class="archive-link">
+  <article class="archive background {{ post.id | split: '/' | last | slugify | prepend: 'background-' }} {% if post.url == page.url %}active{% endif %}">
+    <a href="{{ post.url }}" class="archive-link {% if post.url == page.url %}active{% endif %}">
       <h1 class="archive-title" data-number="{{ post.screening.number }}">{{ post.title }}</h1>
       <p class="archive-caption">{{ post.screening.date | date: "%e %B, %Y" }}</p>
     </a>

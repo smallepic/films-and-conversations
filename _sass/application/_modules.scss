@@ -34,25 +34,6 @@
   }
 }
 
-.background-inverted
-{
-  &:after
-  {
-    background-color: white;
-    @include transition(all 0.2s linear);
-  }
-
-  &:hover,
-  &:focus,
-  &:active
-  {
-    &:after
-    {
-      background-color: black;
-    }
-  }
-}
-
 .background-babies
 {
   &:before
@@ -575,6 +556,23 @@
       margin-top: 0;
     }
   }
+
+  &:after
+  {
+    background-color: white;
+    @include transition(all 0.2s linear);
+  }
+
+  &.active,
+  &:hover,
+  &:focus,
+  &:active
+  {
+    &:after
+    {
+      background-color: black;
+    }
+  }
 }
 
 .archive-link
@@ -588,6 +586,7 @@
   padding-top: modular-scale(1);
   text-decoration: none;
 
+  &.active,
   &:hover,
   &:focus,
   &:active

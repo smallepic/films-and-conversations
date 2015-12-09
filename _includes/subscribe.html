@@ -1,8 +1,8 @@
-<div class="background background-babies">
+<div class="background {{ site.posts.first.id | split: '/' | last | slugify | prepend: 'background-' }}">
   <section id="subscribe" class="section-container section-subscribe">
     <header class="section-header">
       <h2 class="section-title">Subscribe</h2>
-      <p>Be the first to know about upcoming screenings and purchase tickets.<br>You can unsubscribe anytime.</p>
+      <p>Be the first to know about upcoming screenings and tickets.<br>You can unsubscribe anytime.</p>
     </header>
 
     <form action="http://campaigns.smallepic.com/t/r/s/itjdsy/" method="post" class="subscribe-form">

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+
+<html>
+  {% include head.html %}
+
+  <body>
+    <div class="background {{ site.posts.first.id | split: '/' | last | slugify | prepend: 'background-' }}">
+      <header class="masthead">
+        <h1><a href="/" class="masthead-title">Films &amp;<br>Conversations</a></h1>
+      </header>
+
+      <section id="subscribe" class="section-container section-subscribe">
+        <header class="section-header">
+          {{ content }}
+        </header>
+      </section>
+    </div>
+
+    {% include footer.html %}
+  </body>
+</html>

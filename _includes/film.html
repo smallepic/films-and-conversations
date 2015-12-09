@@ -1,9 +1,11 @@
 <section id="film" class="section-container">
   <header class="section-header">
-    <h2>The Film</h2>
+    <h2 class="section-title">The Film</h2>
+
     <div class="film-description">
       {{ content }}
     </div>
+
     <dl class="film-details">
       <dt>Director</dt>
       <dd>{{ page.film.director }}</dd>
@@ -15,10 +17,12 @@
       <dd>{{ page.film.running_time | append: ' minutes' }}</dd>
       <dt>Language</dt>
       <dd>{{ page.film.language }}</dd>
+
       {% if page.film.subtitles %}
-      <dt>Subtitles</dt>
-      <dd>{{ page.film.subtitles }}</dd>
+        <dt>Subtitles</dt>
+        <dd>{{ page.film.subtitles }}</dd>
       {% endif %}
+
       <dt>Links</dt>
       <dd><a href="{{ page.film.url }}">Website</a>, <a href="http://www.imdb.com/title/{{ page.film.imdb_id }}/">IMDB</a></dd>
     </dl>

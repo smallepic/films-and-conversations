@@ -4,7 +4,10 @@ title: The Salt of the Earth
 screening:
   number: 9
   date: 2015-11-26 19:30:00 CET
-  eventbrite_id: 19576190914
+  tickets:
+    available: false
+    sold_out: true
+    eventbrite_id: 19576190914
   venue:
     name: Das Filmcafé
     street: Schliemannstraße 15

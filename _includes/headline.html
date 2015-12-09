@@ -1,3 +1,11 @@
+{% unless page.screening.tickets.sold_out %}
+  {% assign tickets_button_class = 'button-alternate' %}
+  {% assign tickets_button_label = 'Tickets' %}
+{% else %}
+  {% assign tickets_button_class = 'button-error' %}
+  {% assign tickets_button_label = 'Sold Out' %}
+{% endunless %}
+
 <section class="headline">
   <h1 class="headline-title" data-number="{{ include.page.screening.number }}">{{ include.page.film.title }}</h1>
 
@@ -8,6 +16,7 @@
     {% else %}
       <li>{{ include.page.screening.date | date: "%l:%M %p" }}</li>
     {% endif %}
+
     <li>{{ include.page.screening.date | date: "%A, %e %B, %Y" }}</li>
     <li>{{ include.page.screening.venue.name }}, {{ include.page.screening.venue.city }}, {{ include.page.screening.venue.country }}</li>
   </ul>
@@ -16,13 +25,15 @@
     {% if page.url == '/' %}
       <li><a href="{{ include.page.url }}" class="button button-alternate">Details</a></li>
     {% else %}
-      <li><a href="#tickets" class="button button-alternate">Tickets</a></li>
+      <li><a href="#tickets" class="button {{ tickets_button_class }}">{{ tickets_button_label }}</a></li>
       <li><a href="#film" class="button button-alternate">Trailer</a></li>
+
       {% if include.page.dinner %}
-      <li><a href="#dinner" class="button button-alternate">Dinner</a></li>
+        <li><a href="#dinner" class="button button-alternate">Dinner</a></li>
       {% endif %}
+
       {% if include.page.exhibition %}
-      <li><a href="#exhibition" class="button button-alternate">Exhibition</a></li>
+        <li><a href="#exhibition" class="button button-alternate">Exhibition</a></li>
       {% endif %}
     {% endif %}
   </ul>

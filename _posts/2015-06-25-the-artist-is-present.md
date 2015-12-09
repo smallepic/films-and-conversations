@@ -4,7 +4,10 @@ title: "Marina Abramović: The Artist is Present"
 screening:
   number: 6
   date: 2015-06-25 19:30:00 CET
-  eventbrite_id: 17415472146
+  tickets:
+    available: false
+    sold_out: false
+    eventbrite_id: 17415472146
   venue:
     name: Das Filmcafé
     street: Schliemannstraße 15

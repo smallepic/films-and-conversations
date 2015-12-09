@@ -4,7 +4,10 @@ title: Finding Vivian Maier
 screening:
   number: 2
   date: 2015-02-26 19:30:00 CET
-  eventbrite_id: 15749198276
+  tickets:
+    available: false
+    sold_out: true
+    eventbrite_id: 15749198276
   venue:
     name: Das Filmcafé
     street: Schliemannstraße 15

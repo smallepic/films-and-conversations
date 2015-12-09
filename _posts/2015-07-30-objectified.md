@@ -3,8 +3,11 @@ layout: application
 title: Objectified
 screening:
   number: 7
-  date: 2015-07-30 19:30:00 CET
-  eventbrite_id: 17839047070
+  date: 2016-07-30 19:30:00 CET
+  tickets:
+    available: false
+    sold_out: true
+    eventbrite_id: 17839047070
   venue:
     name: Das Filmcafé
     street: Schliemannstraße 15

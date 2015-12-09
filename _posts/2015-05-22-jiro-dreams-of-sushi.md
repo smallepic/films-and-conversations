@@ -18,7 +18,10 @@ dinner:
 screening:
   number: 5
   date: 2015-05-22 20:00:00 CET
-  eventbrite_id: 16945749192
+  tickets:
+    available: false
+    sold_out: true
+    eventbrite_id: 16945749192
   venue:
     name: Das Filmcafé
     street: Schliemannstraße 15

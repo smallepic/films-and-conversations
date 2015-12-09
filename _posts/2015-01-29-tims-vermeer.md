@@ -4,7 +4,10 @@ title: Tim’s Vermeer
 screening:
   number: 1
   date: 2015-01-29 19:30:00 CET
-  eventbrite_id: 15325734685
+  tickets:
+    available: false
+    sold_out: true
+    eventbrite_id: 15325734685
   venue:
     name: Das Filmcafé
     street: Schliemannstraße 15

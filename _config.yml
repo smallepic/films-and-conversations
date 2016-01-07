@@ -2,8 +2,11 @@ destination: public
 exclude: [config.ru]
 future: true
 permalink: /screenings/:title
-title: Films &amp; Conversations
-description: "*Films & Conversations* is a regular meetup serving a diet of counterculture, substantial ideas, and great conversations; through the medium of film."
+title: 'Films & Conversations'
+description: '*Films & Conversations* is a regular meetup serving a diet of counterculture, substantial ideas, and great conversations; through the medium of film.'
+author:
+  name: John Ngo
+  email: john@smallepic.com
 url: http://filmsandconversations.com
 facebook_url: https://www.facebook.com/filmsandconversations/
 twitter_url: https://twitter.com/filmsandconv/

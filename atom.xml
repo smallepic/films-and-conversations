@@ -1,0 +1,52 @@
+---
+layout: null
+---
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>{{ site.title | xml_escape }}</title>
+  <subtitle>{{ site.description | markdownify }}</subtitle>
+  <author>
+    <name>{{ site.author.name | xml_escape }}</name>
+    <email>{{ site.author.email | xml_escape }}</email>
+  </author>
+  <id>{{ site.url }}</id>
+  <link href="{{ site.url }}" rel="alternate" />
+  <updated>{{ site.time | date_to_rfc822 }}</updated>
+  <generator version="{{ jekyll.version }}" uri="http://jekyllrb.com/">Jekyll</generator>
+
+  {% for post in site.posts %}
+    <entry>
+      <title>{{ post.title | xml_escape }}</title>
+      <category>{{ post.film.genre | xml_escape }}</category>
+      <id>{{ post.url | prepend: site.url }}</id>
+      <link href="{{ post.url | prepend: site.url }}" rel="alternate" />
+      <updated>{{ post.date | date_to_rfc822 }}</updated>
+      <content type="html">
+        <![CDATA[
+          <p><img src="{{ post.assets.image }}"></p>
+          <h2>The Film</h2>
+          {{ post.content | markdownify }}
+          <ul>
+            <li>Director: {{ post.film.director }}</li>
+            <li>Cast: {{ post.film.cast }}</li>
+            <li>Genre: {{ post.film.genre }}</li>
+            <li>Run Time: {{ post.film.running_time | append: ' minutes' }}</li>
+            <li>Language: {{ post.film.language }}</li>
+            {% if post.film.subtitles %}<li>Subtitles: {{ post.film.subtitles }}</li>{% endif %}
+          </ul>
+          <h2>Screening</h2>
+          <ul>
+            {% if post.dinner %}
+              <li>{{ post.dinner.date | date: "%l:%M %p" }} (Dinner), {{ post.screening.date | date: "%l:%M %p" }} (Screening); {{ post.screening.date | date: "%A, %e %B, %Y" }}</li>
+            {% else %}
+              <li>Date: {{ post.screening.date | date: "%l:%M %p, %A, %e %B, %Y" }}</li>
+            {% endif %}
+            <li>Venue: {{ post.screening.venue.name }} ({{ post.screening.venue.street }}, {{ post.screening.venue.postcode }}, {{ post.screening.venue.locality }}, {{ post.screening.venue.city }}, {{ post.screening.venue.country }})</li>
+          </ul>
+          <p><a href="{{ post.url | prepend: site.url }}">Purchase tickets from the website</a>.</p>
+        ]]>
+      </content>
+    </entry>
+  {% endfor %}
+</feed>

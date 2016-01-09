@@ -1,5 +1,5 @@
 destination: public
-exclude: ['CNAME', 'config.ru', 'Gemfile']
+exclude: ['CNAME', 'config.ru', 'Gemfile', 'Gemfile.lock']
 future: true
 permalink: '/screenings/:title'
 title: 'Films & Conversations'

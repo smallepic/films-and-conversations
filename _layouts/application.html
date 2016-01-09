@@ -4,7 +4,7 @@
   {% include head.html %}
 
   <body>
-    {% if page.url == '/' %}
+    {% if page.url == '/index.html' %}
       {% include header.html page=site.posts.first %}
     {% else %}
       {% include header.html page=page %}

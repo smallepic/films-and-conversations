@@ -1,9 +1,13 @@
 ---
-layout: screening
+layout: application
 title: 
 screening:
+  number:
   date:
-  eventbrite_id:
+  tickets:
+    available: true
+    sold_out: false
+    eventbrite_id:
   venue:
     name: Das Filmcafé
     street: Schliemannstraße 15

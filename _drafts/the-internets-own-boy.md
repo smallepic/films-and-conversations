@@ -28,7 +28,8 @@ film:
   imdb_id: tt3268458
   vimeo_id: 151515082
 images:
-  background: http://filmsandconversations.com/images/background-the-internets-own-boy.jpg
+  background: background-the-internets-own-boy.jpg
+  email: email-the-internets-own-boy.jpg
 announcements:
   email: |
     With the departure of Summer, comes the pleasure of staying inside.  And what better way to enjoy the great indoors than within the confines of Das Filmcafé’s delightfully cosy cinema in the company of friends?

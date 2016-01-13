@@ -29,6 +29,7 @@ film:
   vimeo_id: 145866874
 images:
   background: background-the-salt-of-the-earth.jpg
+  email: email-banner-the-salt-of-the-earth.jpg
 announcements:
   email: |
     With the departure of Summer, comes the pleasure of staying inside.  And what better way to enjoy the great indoors than within the confines of Das Filmcafé’s delightfully cosy cinema in the company of friends?

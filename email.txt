@@ -1,0 +1,25 @@
+---
+layout: null
+---
+{% assign page = site.posts.first %}
+Hey [firstname, fallback=fellow filmgoer],
+
+{{ page.announcements.email }}
+
+Tickets now available from the website:
+{{ page.url | prepend: site.url }}
+
+John
+
+## The Film
+
+- Film: {{ page.film.title }}
+- When: {{ page.screening.date | date: "%A, %e %B, %Y" }}
+- Time: {{ page.screening.date | date: "%l:%M %p" }}
+- Where: {{ page.screening.venue.name }}, {{ page.screening.venue.city }}
+- Tickets: {{ page.url | prepend: site.url }}
+
+{{ page.content | strip_html }}
+
+If you no longer wish to receive updates from Films & Conversations, you can unsubscribe immediately:
+http://campaigns.smallepic.com/t/r-u-zhdzil-l-u/

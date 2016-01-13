@@ -31,7 +31,7 @@ images:
   background: background-the-salt-of-the-earth.jpg
   email: email-banner-the-salt-of-the-earth.jpg
 announcements:
-  email: |
+  email: |-
     With the departure of Summer, comes the pleasure of staying inside.  And what better way to enjoy the great indoors than within the confines of Das Filmcafé’s delightfully cosy cinema in the company of friends?
     
     If you’ve seen the work of Sebastião Salgado, you’ll understand the indescribable emotions his images are able te evoke.  For this reason, I’ve long awaited the opportunity to screen Wim Wender’s deeply considered portrait of this visionary photographer.

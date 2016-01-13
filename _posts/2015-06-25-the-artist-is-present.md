@@ -27,7 +27,7 @@ film:
   url: http://marinafilm.com/
   imdb_id: tt2073029
   vimeo_id: 130257655
-assets:
-  image: http://filmsandconversations.com/images/banner-the-artist-is-present.jpg
+images:
+  background: http://filmsandconversations.com/images/banner-the-artist-is-present.jpg
 ---
 Seductive, fearless, and outrageous, Marina Abramović has been redefining what art is for nearly forty years.  Using her own body as a vehicle, pushing herself beyond her physical and mental limits—at times risking her life in the process—creates performances that challenge, shock, and move us.  Through her and with her, boundaries are crossed, consciousness expanded, and art as we know it is reborn.  She is, quite simply, one of the most compelling artists of our time.

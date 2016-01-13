@@ -27,6 +27,6 @@ film:
   url:
   imdb_id:
   vimeo_id:
-assets:
-  image:
+images:
+  background:
 ---

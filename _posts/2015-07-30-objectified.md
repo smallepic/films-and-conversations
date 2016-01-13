@@ -27,8 +27,8 @@ film:
   url: http://objectifiedfilm.com/
   imdb_id: tt1241325
   vimeo_id: 134029285
-assets:
-  image: http://filmsandconversations.com/images/background-objectified.png
+images:
+  background: http://filmsandconversations.com/images/background-objectified.png
 ---
 Objectified is a feature-length documentary about our complex relationship with manufactured objects and, by extension, the people who design them.  It’s a look at the creativity at work behind everything from toothbrushes to tech gadgets.  It’s about the designers who re-examine, re-evaluate and re-invent our manufactured environment on a daily basis.  It’s about personal expression, identity, consumerism, and sustainability.
 

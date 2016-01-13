@@ -27,7 +27,7 @@ film:
   url: http://www.sonyclassics.com/timsvermeer/
   imdb_id: tt3089388
   vimeo_id: 116416339
-assets:
-  image: http://filmsandconversations.com/images/background-tims-vermeer.jpg
+images:
+  background: http://filmsandconversations.com/images/background-tims-vermeer.jpg
 ---
 Tim Jenison, a Texas based inventor, attempts to solve one of the greatest mysteries in all art: how did 17th century Dutch Master Johannes Vermeer (“Girl with a Pearl Earring”) manage to paint so photo-realistically—150 years before the invention of photography?  The epic research project Jenison embarks on to test his theory is as extraordinary as what he discovers.  Spanning eight years, Jenison’s adventure takes him to Delft, Holland, where Vermeer painted his masterpieces, on a pilgrimage to the North coast of Yorkshire to meet artist David Hockney, and even to Buckingham Palace to see a Vermeer masterpiece in the collection of the Queen.

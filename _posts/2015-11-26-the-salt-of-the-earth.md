@@ -27,8 +27,13 @@ film:
   url: http://sonyclassics.com/thesaltoftheearth/
   imdb_id: tt3674140
   vimeo_id: 145866874
-assets:
-  image: http://filmsandconversations.com/images/background-the-salt-of-the-earth.jpg
+images:
+  background: background-the-salt-of-the-earth.jpg
+announcements:
+  email: |
+    With the departure of Summer, comes the pleasure of staying inside.  And what better way to enjoy the great indoors than within the confines of Das Filmcafé’s delightfully cosy cinema in the company of friends?
+    
+    If you’ve seen the work of Sebastião Salgado, you’ll understand the indescribable emotions his images are able te evoke.  For this reason, I’ve long awaited the opportunity to screen Wim Wender’s deeply considered portrait of this visionary photographer.
 ---
 For the last 40 years, the photographer Sebastião Salgado has been travelling through the continents, in the footsteps of an ever-changing humanity.  He has witnessed some of the major events of our recent history; international conflicts, starvation and exodus.  He is now embarking on the discovery of pristine territories, of wild fauna and flora, and of grandiose landscapes as part of a huge photographic project, which is a tribute to the planet’s beauty.
 

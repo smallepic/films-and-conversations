@@ -40,7 +40,7 @@ exhibition:
     city: Berlin
     country: Germany
     url: http://www.willy-brandt-haus.de/kunst-kultur/ausstellulngen/vivian-maier/
-assets:
-  image: http://filmsandconversations.com/images/background-finding-vivian-maier.jpg
+images:
+  background: http://filmsandconversations.com/images/background-finding-vivian-maier.jpg
 ---
 Who is Vivian Maier?  Now considered one of the 20th century’s greatest street photographers, Vivian Maier was a mysterious nanny who secretly took over 100,000 photographs that went unseen during her lifetime.  Since buying her work by chance at auction, amateur historian John Maloof has crusaded to put this prolific photographer in the history books.  Maier’s strange and riveting life and art are revealed through never-before-seen photographs, films, and interviews with dozens who thought they knew her.

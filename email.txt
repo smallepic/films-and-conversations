@@ -22,4 +22,4 @@ John
 {{ page.content | strip_html }}
 
 If you no longer wish to receive updates from Films & Conversations, you can unsubscribe immediately:
-http://campaigns.smallepic.com/t/r-u-zhdzil-l-u/
+[unsubscribe]

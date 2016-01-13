@@ -3,7 +3,7 @@ exclude: ['CNAME', 'config.ru', 'Gemfile', 'Gemfile.lock']
 future: true
 permalink: '/screenings/:title/'
 title: 'Films & Conversations'
-description: '*Films & Conversations* is a regular meetup serving a diet of counterculture, substantial ideas, and great conversations; through the medium of film.'
+description: 'Films & Conversations is a regular meetup serving a diet of counterculture, substantial ideas, and great conversations; through the medium of film.'
 author:
   name: John Ngo
   email: john@smallepic.com

@@ -12,18 +12,18 @@
 
   <!-- Facebook Open Graph Metadata -->
   <meta property="og:type" content="website">
-  <meta property="og:title" content="{{ page.film.title }}">
-  <meta property="og:description" content="{{ page.film.description }}">
-  <meta property="og:url" content="{{ page.url }}">
-  <meta property="og:image" content="{{ page.assets.image }}">
+  <meta property="og:title" content="{% if page.url == '/index.html' %}{{ site.title }}{% else %}{{ page.title }}{% endif %}">
+  <meta property="og:description" content="{% if page.url == '/index.html' %}{{ site.description }}{% else %}{{ page.film.description }}{% endif %}">
+  <meta property="og:url" content="{{ page.url | prepend: site.url }}">
+  <meta property="og:image" content="{{ page.assets.image | prepend: '/images/' | prepend: site.url }}">
 
   <!-- Twitter Card Metadata -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:creator" content="@filmsandconv">
   <meta name="twitter:site" content="@filmsandconv">
-  <meta name="twitter:title" content="{{ page.film.title }}">
-  <meta name="twitter:description" content="{{ page.film.description }}">
-  <meta name="twitter:image:src" content="{{ page.assets.image }}">
+  <meta name="twitter:title" content="{% if page.url == '/index.html' %}{{ site.title }}{% else %}{{ page.title }}{% endif %}">
+  <meta name="twitter:description" content="{% if page.url == '/index.html' %}{{ site.description }}{% else %}{{ page.film.description }}{% endif %}">
+  <meta name="twitter:image:src" content="{{ page.assets.image | prepend: '/images/' | prepend: site.url }}">
 
   <link href="/stylesheets/application.css" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" type="application/atom+xml" title="{{ site.title }}">

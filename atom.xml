@@ -24,7 +24,7 @@ layout: null
       <updated>{{ post.date | date_to_rfc822 }}</updated>
       <content type="html">
         <![CDATA[
-          <p><img src="{{ post.assets.image }}"></p>
+          <p><img src="{{ post.assets.image | prepend: '/images/' | prepend: site.url }}"></p>
           <h2>The Film</h2>
           {{ post.content | markdownify }}
           <ul>

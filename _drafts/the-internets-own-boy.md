@@ -32,8 +32,8 @@ images:
   email: email-the-internets-own-boy.jpg
 announcements:
   email: |-
-    With the departure of Summer, comes the pleasure of staying inside.  And what better way to enjoy the great indoors than within the confines of Das Filmcafé’s delightfully cosy cinema in the company of friends?
+    I was recently reminded that on this month, three years ago, Aaron Swartz hung himself in his Brooklyn apartment.
     
-    If you’ve seen the work of Sebastião Salgado, you’ll understand the indescribable emotions his images are able te evoke.  For this reason, I’ve long awaited the opportunity to screen Wim Wender’s deeply considered portrait of this visionary photographer.
+    As somber as it is to start the new year in such a way, this month’s screening is not only a tribute to an extraordinary man, but a celebration of his profound commitment to changing the world.
 ---
 *The Internet’s Own Boy* follows the story of programming prodigy and information activist Aaron Swartz.  From Swartz's help in the development of the basic internet protocol RSS to his co-founding of Reddit, his fingerprints are all over the internet.  But it was Swartz's groundbreaking work in social justice and political organizing combined with his aggressive approach to information access that ensnared him in a two-year legal nightmare.  It was a battle that ended with the taking of his own life at the age of 26.  Aaron’s story touched a nerve with people far beyond the online communities in which he was a celebrity.  This film is a personal story about what we lose when we are tone deaf about technology and its relationship to our civil liberties.

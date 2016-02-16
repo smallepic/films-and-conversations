@@ -42,7 +42,3 @@ announcements:
 Every spring, China’s cities are plunged into chaos as 130 million migrant workers journey to their home villages for the New Year’s holiday. This mass exodus is the world’s largest human migration—an epic spectacle that reveals a country tragically caught between its rural past and industrial future.
 
 Working over several years in classic verité style Chinese-Canadian filmmaker Lixin Fan (with the producers of the award-winning hit documentary Up the Yangtze) travels with one couple who have embarked on this annual trek for almost two decades. Like so many of China’s rural poor, Changhua and Sugin Zhang left behind their two infant children for grueling factory jobs. Their daughter Qin—now a restless and rebellious teenager—both bitterly resents their absence and longs for her own freedom away from school, much to the utter devastation of her parents. Emotionally engaging and starkly beautiful, Last Train Home’s intimate observation of one fractured family sheds light on the human cost of China’s ascendance as an economic superpower.
-
-
-
-

@@ -67,6 +67,17 @@
   }
 }
 
+.background-last-train-home
+{
+  &:before
+  {
+    background-image: url(/images/background-last-train-home.jpg);
+    background-position: 100% 0%;
+    background-size: cover;
+    opacity: 0.25;
+  }
+}
+
 .background-objectified
 {
   &:before

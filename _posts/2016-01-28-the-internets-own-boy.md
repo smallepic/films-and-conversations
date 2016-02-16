@@ -5,7 +5,7 @@ screening:
   number: 10
   date: 2016-01-28 19:30:00 CET
   tickets:
-    available: true
+    available: false
     sold_out: false
     eventbrite_id: 20728904712
   venue:

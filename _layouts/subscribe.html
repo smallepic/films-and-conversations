@@ -4,7 +4,7 @@
   {% include head.html %}
 
   <body>
-    <div class="background {{ site.posts.first.id | split: '/' | last | slugify | prepend: 'background-' }}">
+    <div class="background {{ site.posts.first.previous.id | split: '/' | last | slugify | prepend: 'background-' }}">
       <header class="masthead">
         <h1><a href="/" class="masthead-title">Films &amp;<br>Conversations</a></h1>
       </header>

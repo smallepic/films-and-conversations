@@ -155,6 +155,17 @@
   }
 }
 
+.background-urbanized
+{
+  &:before
+  {
+    background-image: url(/images/background-urbanized.png);
+    background-position: 50% 50%;
+    background-size: cover;
+    opacity: 0.25;
+  }
+}
+
 
 // Masthead
 // -------------------------

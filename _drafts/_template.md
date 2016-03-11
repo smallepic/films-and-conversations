@@ -1,6 +1,6 @@
 ---
 layout: application
-title: 
+title:
 screening:
   number:
   date:
@@ -23,10 +23,14 @@ film:
   genre:
   running_time:
   language:
+  subtitles:
   description:
   url:
   imdb_id:
   vimeo_id:
 images:
   background:
+  email:
+announcements:
+  email:
 ---

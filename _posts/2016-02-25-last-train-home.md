@@ -5,7 +5,7 @@ screening:
   number: 11
   date: 2016-02-25 19:30:00 CET
   tickets:
-    available: true
+    available: false
     sold_out: false
     eventbrite_id: 21673244257
   venue:

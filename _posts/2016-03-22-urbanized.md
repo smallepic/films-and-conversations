@@ -32,9 +32,9 @@ images:
   email: email-urbanized.jpg
 announcements:
   email: |-
-    Those of you in attendance at my past three screenings have surely noticed the sombre and heartbraking themes persistent in each selection.
+    Those of you in attendance at my past three screenings have surely noticed the sombre and heartbreaking themes persistent in each selection.
     
-    So this month, I’d like to offer a more optimistic look at the world through *Urbanized*, the third film in Gary Hustwit’s design trilogy.
+    So this month, I’d like to offer a more optimistic look at the world through *Urbanized*, the third film in Gary Hustwit’s design triptych.
     
     His first two films—*Helvetica* and *Objectified*—dealt with details: the world’s most ubiquitous typeface and the design of consumer objects.  *Urbanized* focuses on the big picture, examining cities and the forces that shape them.
     

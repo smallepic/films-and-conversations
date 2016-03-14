@@ -23,7 +23,7 @@ film:
   genre: Documentary
   running_time: 85 minutes
   language: English
-  description:
+  description: Urbanized is a documentary about the design of cities, a look at the issues and strategies behind urban design featuring some of the world’s foremost architects, planners, policymakers, builders, and thinkers.
   url: http://urbanizedfilm.com/
   imdb_id: tt1701976
   vimeo_id: 158642022
@@ -32,7 +32,14 @@ images:
   email: email-urbanized.jpg
 announcements:
   email: |-
+    Those of you in attendance at my past three screenings have surely noticed the sombre and heartbraking themes persistent in each selection.
+    
+    So this month, I’d like to offer a more optimistic look at the world through *Urbanized*, the third film in Gary Hustwit’s design trilogy.
+    
+    His first two films—*Helvetica* and *Objectified*—dealt with details: the world’s most ubiquitous typeface and the design of consumer objects.  *Urbanized* focuses on the big picture, examining cities and the forces that shape them.
+    
+    *Please note this month’s screening is a departure from the usual last Thursday of the month.*
 ---
-Urbanized is a feature-length documentary about the design of cities, which looks at the issues and strategies behind urban design and features some of the world’s foremost architects, planners, policymakers, builders, and thinkers. Over half the world’s population now lives in an urban area, and 75% will call a city home by 2050. But while some cities are experiencing explosive growth, others are shrinking. The challenges of balancing housing, mobility, public space, civic engagement, economic development, and environmental policy are fast becoming universal concerns. Yet much of the dialogue on these issues is disconnected from the public domain.
+*Urbanized* is a feature-length documentary about the design of cities, which looks at the issues and strategies behind urban design and features some of the world’s foremost architects, planners, policymakers, builders, and thinkers. Over half the world’s population now lives in an urban area, and 75% will call a city home by 2050. But while some cities are experiencing explosive growth, others are shrinking. The challenges of balancing housing, mobility, public space, civic engagement, economic development, and environmental policy are fast becoming universal concerns. Yet much of the dialogue on these issues is disconnected from the public domain.
 
 Who is allowed to shape our cities, and how do they do it? Unlike many other fields of design, cities aren’t created by any one specialist or expert. There are many contributors to urban change, including ordinary citizens who can have a great impact improving the cities in which they live. By exploring a diverse range of urban design projects around the world, Urbanized frames a global discussion on the future of cities.

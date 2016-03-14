@@ -23,7 +23,7 @@ film:
   genre: Documentary
   running_time: 85 minutes
   language: English
-  description: Urbanized is a documentary about the design of cities, a look at the issues and strategies behind urban design featuring some of the world’s foremost architects, planners, policymakers, builders, and thinkers.
+  description: A documentary about the design of cities, looking at the issues and strategies behind urban design featuring some of the world’s foremost architects, planners, policymakers, builders, and thinkers.
   url: http://urbanizedfilm.com/
   imdb_id: tt1701976
   vimeo_id: 158642022

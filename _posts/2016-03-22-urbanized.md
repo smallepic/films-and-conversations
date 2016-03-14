@@ -28,8 +28,8 @@ film:
   imdb_id: tt1701976
   vimeo_id: 158642022
 images:
-  background: background-urbanized.png
-  email:
+  background: background-urbanized.jpg
+  email: email-urbanized.jpg
 announcements:
   email: |-
 ---

@@ -26,7 +26,9 @@ film:
   description: "Tim Jenison, a Texas based inventor, attempts to solve one of the greatest mysteries in all art: how did 17th century Dutch Master Johannes Vermeer manage to paint so photo-realistically—150 years before the invention of photography?"
   url: http://www.sonyclassics.com/timsvermeer/
   imdb_id: tt3089388
-  vimeo_id: 116416339
+  trailer:
+    aspect_ratio: "16:9"
+    vimeo_id: 116416339
 images:
   background: http://filmsandconversations.com/images/background-tims-vermeer.jpg
 ---

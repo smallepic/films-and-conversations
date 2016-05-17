@@ -26,7 +26,9 @@ film:
   description: Wim Wender’s deeply considered portrait of visionary photographer, Sebastião Salgado.
   url: http://sonyclassics.com/thesaltoftheearth/
   imdb_id: tt3674140
-  vimeo_id: 145866874
+  trailer:
+    aspect_ratio: "16:9"
+    vimeo_id: 145866874
 images:
   background: background-the-salt-of-the-earth.jpg
   email: email-banner-the-salt-of-the-earth.jpg

@@ -26,7 +26,9 @@ film:
   description: The story of programming prodigy and information activist Aaron Swartz, who took his own life at the age of 26.
   url: http://www.takepart.com/internets-own-boy
   imdb_id: tt3268458
-  vimeo_id: 151515082
+  trailer:
+    aspect_ratio: "16:9"
+    vimeo_id: 151515082
 images:
   background: background-the-internets-own-boy.jpg
   email: email-the-internets-own-boy.jpg

@@ -26,7 +26,9 @@ film:
   description: Life in a mega city is both enchanting and problematic.  Today we face peak oil, climate change, loneliness and severe health issues due to our way of life.  But why?
   url: http://thehumanscale.dk/
   imdb_id: tt2414454
-  vimeo_id: 125397227
+  trailer:
+    aspect_ratio: "16:9"
+    vimeo_id: 125397227
 images:
   background: http://filmsandconversations.com/images/banner-the-human-scale.jpg
 ---

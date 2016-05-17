@@ -26,7 +26,9 @@ film:
   description: Wim Wender’s deeply considered portrait of visionary photographer, Sebastião Salgado.
   url: http://objectifiedfilm.com/
   imdb_id: tt1241325
-  vimeo_id: 134029285
+  trailer:
+    aspect_ratio: "16:9"
+    vimeo_id: 134029285
 images:
   background: http://filmsandconversations.com/images/background-objectified.png
 ---

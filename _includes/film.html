@@ -24,11 +24,11 @@
       {% endif %}
 
       <dt>Links</dt>
-      <dd><a href="{{ page.film.url }}">Website</a>, <a href="http://www.imdb.com/title/{{ page.film.imdb_id }}/">IMDB</a></dd>
+      <dd><a href="{{ page.film.url }}">Website</a>, <a href="{{ page.film.imdb_id | prepend: 'http://www.imdb.com/title/' }}/">IMDB</a></dd>
     </dl>
   </header>
 
-  <figure class="embed embed-16-9">
-    <iframe src="//player.vimeo.com/video/{{ page.film.vimeo_id }}?title=0&amp;byline=0&amp;portrait=0&amp;color=ffff00" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+  <figure class="embed {{ page.film.trailer.aspect_ratio | replace: ':', '-' | prepend: 'embed-' }}">
+    <iframe src="{{ page.film.trailer.vimeo_id | prepend: '//player.vimeo.com/video/' | append: '?title=0&amp;byline=0&amp;portrait=0&amp;color=ffff00' }}" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
   </figure>
 </section>

@@ -26,7 +26,9 @@ film:
   description: A documentary on the late Vivian Maier, a nanny whose previously unknown cache of 100,000 photographs earned her a posthumous reputation as one of the most accomplished street photographers.
   url: http://www.findingvivianmaier.com/
   imdb_id: tt2714900
-  vimeo_id: 118624692
+  trailer:
+    aspect_ratio: "16:9"
+    vimeo_id: 118624692
 exhibition:
   start_date: 2015-02-19
   end_date: 2015-04-12

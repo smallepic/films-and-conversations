@@ -41,7 +41,9 @@ film:
   description: Jiro Dreams of Sushi is a thoughtful and elegant meditation on work, family, and the art of perfection, chronicling Jiro Ono’s life as both an unparalleled success in the culinary world and as a loving, yet complicated father.
   url: http://www.magpictures.com/jirodreamsofsushi/
   imdb_id: tt1772925
-  vimeo_id: 127427912
+  trailer:
+    aspect_ratio: "16:9"
+    vimeo_id: 127427912
 images:
   background: http://filmsandconversations.com/images/banner-jiro-dreams-of-sushi.jpg
 ---

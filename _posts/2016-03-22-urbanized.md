@@ -26,7 +26,9 @@ film:
   description: A documentary about the design of cities, looking at the issues and strategies behind urban design featuring some of the world’s foremost architects, planners, policymakers, builders, and thinkers.
   url: http://urbanizedfilm.com/
   imdb_id: tt1701976
-  vimeo_id: 158642022
+  trailer:
+    aspect_ratio: "16:9"
+    vimeo_id: 158642022
 images:
   background: background-urbanized.jpg
   email: email-urbanized.jpg

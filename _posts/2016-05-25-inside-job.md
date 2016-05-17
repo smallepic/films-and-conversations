@@ -26,7 +26,9 @@ film:
   description: Inside Job, is the first film to provide a comprehensive analysis of the global financial crisis of 2008, which at a cost over $20 trillion, caused millions of people to lose their jobs and homes in the worst recession since the Great Depression, and nearly resulted in a global financial collapse.
   url: http://www.sonyclassics.com/insidejob/
   imdb_id: tt1645089
-  vimeo_id: 166958707
+  trailer:
+    aspect_ratio: "21:9"
+    vimeo_id: 166958707
 images:
   background: background-inside-job.jpg
   email: email-inside-job.jpg

@@ -27,7 +27,9 @@ film:
   description: A couple embarks on a journey home for Chinese new year along with 130 million other migrant workers, to reunite with their children and struggle for a future. Their unseen story plays out as China soars towards being a world superpower.
   url: https://zeitgeistfilms.com/lasttrainhome/
   imdb_id: tt1512201
-  vimeo_id: 155404722
+  trailer:
+    aspect_ratio: "16:9"
+    vimeo_id: 155404722
 images:
   background: background-last-train-home.jpg
   email: email-last-train-home.jpg

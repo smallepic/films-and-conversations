@@ -26,7 +26,9 @@ film:
   description: "Marina Abramović: The Artist is Present takes us inside Marina’s world, following her as she prepares for what may be the most important moment of her life: a major retrospective of her work, taking place at the Museum of Modern Art in New York."
   url: http://marinafilm.com/
   imdb_id: tt2073029
-  vimeo_id: 130257655
+  trailer:
+    aspect_ratio: "16:9"
+    vimeo_id: 130257655
 images:
   background: http://filmsandconversations.com/images/banner-the-artist-is-present.jpg
 ---

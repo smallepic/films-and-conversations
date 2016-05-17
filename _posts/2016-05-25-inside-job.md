@@ -9,13 +9,13 @@ screening:
     sold_out: false
     eventbrite_id: 25511181631
   venue:
-    name: Chaos Theory
+    name: Chaostheorie
     street: Schliemannstraße 15
     postcode: 10437
     locality: Prenzlauer Berg
     city: Berlin
     country: Germany
-    google_maps_url: https://www.google.de/maps/place/Das+Filmcafé/@52.543592,13.41985,17z/data=!4m6!1m3!3m2!1s0x47a84dff985f5863:0x6730066f8aa942d6!2sDas+Filmcafé!3m1!1s0x47a84dff985f5863:0x6730066f8aa942d6
+    google_maps_url: https://www.google.de/maps/place/Chaostheorie/@52.543607,13.4177305,17z/data=!3m1!4b1!4m5!3m4!1s0x47a851fff2117879:0xdb36ea8ccdaea2f5!8m2!3d52.543607!4d13.4199192
 film:
   title: Inside Job
   director: Charles Ferguson

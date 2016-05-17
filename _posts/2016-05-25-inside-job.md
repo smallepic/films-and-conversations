@@ -34,6 +34,10 @@ images:
   email: email-inside-job.jpg
 announcements:
   email: |-
-    *Please note this month’s screening is on the last Wednesday of the May instead of the usual Thursday.*
+    Hollywood has given us some great depictions of the dark side of capitalism: Wall Street, The Wolf of Wall Street, and The Big Short to name a few.
+    
+    While watching The Big Short played out on the big screen last year; I came to realise that, while these films do a great job of highlighting the excesses of characters and complacency of institutions, they do little to help us understand the inherent faults of the financial system itself (and by extension, capitalism).  Hating the player, not the game; so to speak.
+    
+    So after a one month hiatus, Films & Conversations returns with Inside Job, a documentary that aims to make sense of the systemic corruption that lead to the global financial crisis of 2008.
 ---
 *Inside Job*, is the first film to provide a comprehensive analysis of the global financial crisis of 2008, which at a cost over $20 trillion, caused millions of people to lose their jobs and homes in the worst recession since the Great Depression, and nearly resulted in a global financial collapse.  Through exhaustive research and extensive interviews with key financial insiders, politicians, journalists, and academics, the film traces the rise of a rogue industry which has corrupted politics, regulation, and academia.

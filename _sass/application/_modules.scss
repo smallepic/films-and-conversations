@@ -56,6 +56,17 @@
   }
 }
 
+.background-inside-job
+{
+  &:before
+  {
+    background-image: url(/images/background-inside-job.jpg);
+    background-position: 50% 25%;
+    background-size: cover;
+    opacity: 0.25;
+  }
+}
+
 .background-jiro-dreams-of-sushi
 {
   &:before

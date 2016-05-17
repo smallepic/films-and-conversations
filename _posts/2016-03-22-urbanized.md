@@ -21,7 +21,7 @@ film:
   director: Gary Hustwit
   cast: Sir Norman Foster, Jan Gehl, Rem Koolhaas, Oscar Niemeyer, Ric Scofidio, Michael Sorkin
   genre: Documentary
-  running_time: 85 minutes
+  running_time: 85
   language: English
   description: A documentary about the design of cities, looking at the issues and strategies behind urban design featuring some of the world’s foremost architects, planners, policymakers, builders, and thinkers.
   url: http://urbanizedfilm.com/

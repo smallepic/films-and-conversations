@@ -1,0 +1,19 @@
+{% if page.panel %}
+  <section id="panel" class="section-container">
+    <header class="section-header">
+      <h2 class="section-title">Panel Discussion</h2>
+
+      {{ page.panel.description | markdownify }}
+
+      {% for panelist in page.panel.panelists %}
+        <article class="panelist">
+          <img src="{{ panelist.photo | prepend: '/images/' }}" class="panelist-photo">
+          <h1 class="panelist-name">{{ panelist.name }}</h1>
+          {{ panelist.description | markdownify }}
+        </article>
+      {% endfor %}
+    </header>
+
+  </section>
+{% endif %}
+

@@ -45,6 +45,17 @@
   }
 }
 
+.background-design-disruptors
+{
+  &:before
+  {
+    background-image: url(/images/background-design-disruptors.jpg);
+    background-position: 50% 100%;
+    background-size: cover;
+    opacity: 0.25;
+  }
+}
+
 .background-finding-vivian-maier
 {
   &:before
@@ -540,6 +551,71 @@
   {
     margin-left: modular-scale(6);
   }
+}
+
+
+// Panel
+// -------------------------
+
+.panelist
+{
+  float: left;
+  margin-left: 0;
+  margin-top: modular-scale(2);
+
+  @include media($breakpoint-panel)
+  {
+    width: flex-grid(6, 12);
+
+    &:not(:nth-of-type(2n + 1))
+    {
+      margin-left: flex-gutter();
+    }
+
+    &:nth-of-type(-n + 2)
+    {
+      margin-top: modular-scale(2);
+    }
+  }
+
+  @include media($breakpoint-panel-wide)
+  {
+    width: flex-grid(4, 12);
+
+    &:nth-of-type(n)
+    {
+      margin-left: 0;
+    }
+
+    &:not(:nth-of-type(3n + 1))
+    {
+      margin-left: flex-gutter();
+    }
+
+    &:nth-of-type(-n + 3)
+    {
+      margin-top: modular-scale(2);
+    }
+  }
+}
+
+.panelist-photo
+{
+  border-radius: 50%;
+  width: 50%;
+}
+
+.panelist-name
+{
+  font-size: modular-scale(2);
+  line-height: 1;
+  margin-bottom: modular-scale(0);
+  margin-top: modular-scale(0);
+  text-transform: uppercase;
+}
+
+.panelist-description
+{
 }
 
 

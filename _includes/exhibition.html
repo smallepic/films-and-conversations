@@ -2,9 +2,11 @@
   <section id="exhibition" class="section-container">
     <header class="section-header">
       <h2 class="section-title">Exhibition</h2>
+
       <div class="film-description">
         {{ page.exhibition.description | markdownify }}
       </div>
+
       <dl class="film-details">
         <dt>Location</dt>
         <dd><strong>{{ page.exhibition.venue.name }}</strong><br>{{ page.exhibition.venue.street }}<br>{{ page.exhibition.venue.postcode }}, {{ page.exhibition.venue.locality }}<br>{{ page.exhibition.venue.city }}, {{ page.exhibition.venue.country }}</dd>

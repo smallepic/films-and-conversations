@@ -24,7 +24,7 @@
       {% endif %}
 
       <dt>Links</dt>
-      <dd><a href="{{ page.film.url }}">Website</a>, <a href="{{ page.film.imdb_id | prepend: 'http://www.imdb.com/title/' }}/">IMDB</a></dd>
+      <dd><a href="{{ page.film.url }}">Website</a>{% if page.film.imdb_id %}, <a href="{{ page.film.imdb_id | prepend: 'http://www.imdb.com/title/' }}/">IMDB</a>{% endif %}</dd>
     </dl>
   </header>
 

@@ -5,7 +5,7 @@ screening:
   number: 13
   date: 2016-05-25 19:30:00 CET
   tickets:
-    available: true
+    available: false
     sold_out: false
     eventbrite_id: 25511181631
   venue:

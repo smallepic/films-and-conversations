@@ -36,7 +36,7 @@ panel:
       description: Luke is Design Lead at product and service design firm, Siberia working at the intersection of technology and design.
       photo: photo-luke-ngakane.jpg
     - name: Emily Phillips
-      description: Describing herself as the Ronald  McDonald of Blinkist, Emily spends a lot of time dealing with the outcomes of both good and bad design.
+      description: Working in customer relations and customer support at Blinkist, Emily spends a lot of time dealing with the outcomes of both good and bad design.
       photo: photo-emily-phillips.jpg
     - name: Fatih Girisken
       description: As a mobile app developer turned founder of Dubme, collaborating with designers is an important aspect of Fatih’s work.
@@ -52,7 +52,7 @@ announcements:
     
     In recent years, we’ve seen design play a crucial role in ushering a new era products and services. And with this elevated status, designers are faced with profound responsibilities in their ability to influence the lives of people in the far reaches of the world.
     
-    This film presents an opportunity to have an dialogue about the roles designers play in all our lives, so please join me for a great evening of film and conversation.
+    This film presents an opportunity to have a dialogue about the roles designers play in all our lives, so please join me for a great evening of film and conversation.
 ---
 The future of business is being written by companies and products that—intentionally or not—shake billion dollar industries. In Design Disruptors, enter the world of 15+ industry-toppling companies—valued at more than $1 trillion dollars combined—with one unifying secret advantage: the transformative power of design.
 

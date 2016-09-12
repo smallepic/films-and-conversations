@@ -36,7 +36,7 @@ panel:
       description: Luke is Design Lead at product and service design firm, Siberia working at the intersection of technology and design.
       photo: photo-luke-ngakane.jpg
     - name: Emily Phillips
-      description: Working in customer relations and customer support at Blinkist, Emily spends a lot of time dealing with the outcomes of both good and bad design.
+      description: Working in Customer Engagement and Support at Blinkist, Emily spends a lot of time dealing with the outcomes of both good and bad design.
       photo: photo-emily-phillips.jpg
     - name: Fatih Girisken
       description: As a mobile app developer turned founder of Dubme, collaborating with designers is an important aspect of Fatih’s work.

@@ -18,7 +18,7 @@ screening:
     google_maps_url: https://www.google.de/maps/place/IL+KINO/@52.4915998,13.430868,17z/data=!3m1!4b1!4m5!3m4!1s0x47a84fb3dd3696cb:0x6c1396b23df60e2b!8m2!3d52.4915966!4d13.4330567
 film:
   title: Design Disruptors
-  director: Catalyst
+  director: Matt D’Avella
   cast: John Maeda, Julie Zhuo, Daniel Burka, Frank Yoo, Ryan Donahue, Andy Law, Katie Dill, Tobias Van Schneider, Aarron Walter
   genre: Documentary
   running_time: 75

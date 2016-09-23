@@ -38,7 +38,7 @@ panel:
     - name: Emily Phillips
       description: Working in Customer Engagement and Support at Blinkist, Emily spends a lot of time dealing with the outcomes of both good and bad design.
       photo: photo-emily-phillips.jpg
-    - name: Fatih Girisken
+    - name: Fatih Girişken
       description: As a mobile app developer turned founder of Dubme, collaborating with designers is an important aspect of Fatih’s work.
       photo: photo-fatih-girisken.jpg
 images:

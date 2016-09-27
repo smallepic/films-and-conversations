@@ -5,7 +5,7 @@ screening:
   number: 14
   date: 2016-09-27 19:30:00 CET
   tickets:
-    available: true
+    available: false
     sold_out: false
     eventbrite_id: 27658157293
   venue:

@@ -2,9 +2,6 @@
 title: Films & Conversations
 timezone: UTC
 collections:
-  case-studies:
-    title: Case Studies
-    output: true
   posts:
     title: Posts
     output: true

@@ -1,9 +1,23 @@
+---
+title: Films & Conversations
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
 destination: public
-exclude: ['CNAME', 'config.ru', 'Gemfile', 'Gemfile.lock']
+exclude:
+- CNAME
+- config.ru
+- Gemfile
+- Gemfile.lock
 future: true
-permalink: '/screenings/:title/'
-title: 'Films & Conversations'
-description: 'Films & Conversations is a regular meetup serving a diet of counterculture, substantial ideas, and great conversations; through the medium of film.'
+permalink: "/screenings/:title/"
+description: Films & Conversations is a regular meetup serving a diet of counterculture,
+  substantial ideas, and great conversations; through the medium of film.
 author:
   name: John Ngo
   email: john@smallepic.com

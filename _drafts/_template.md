@@ -1,13 +1,12 @@
 ---
 layout: application
-title:
 screening:
-  number:
-  date:
+  number: 
+  date: 
   tickets:
     available: true
     sold_out: false
-    eventbrite_id:
+    eventbrite_id: 
   venue:
     name: Das Filmcafé
     street: Schliemannstraße 15
@@ -17,20 +16,21 @@ screening:
     country: Germany
     google_maps_url: https://www.google.de/maps/place/Das+Filmcafé/@52.543592,13.41985,17z/data=!4m6!1m3!3m2!1s0x47a84dff985f5863:0x6730066f8aa942d6!2sDas+Filmcafé!3m1!1s0x47a84dff985f5863:0x6730066f8aa942d6
 film:
-  title:
-  director:
-  cast:
-  genre:
-  running_time:
-  language:
-  subtitles:
-  description:
-  url:
-  imdb_id:
-  vimeo_id:
+  title: 
+  director: 
+  cast: 
+  genre: 
+  running_time: 
+  language: 
+  subtitles: 
+  description: 
+  url: 
+  imdb_id: 
+  vimeo_id: 
 images:
-  background:
-  email:
+  background: 
+  email: 
 announcements:
-  email:
+  email: 
 ---
+

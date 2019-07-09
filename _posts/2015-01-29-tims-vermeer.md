@@ -1,6 +1,7 @@
 ---
-layout: application
 title: Tim’s Vermeer
+date: 2015-01-29 00:00:00 Z
+layout: application
 screening:
   number: 1
   date: 2015-01-29 19:30:00 CET
@@ -19,17 +20,21 @@ screening:
 film:
   title: Tim’s Vermeer
   director: Teller
-  cast: Tim Jenison, Penn Jillette, Martin Mull, Professor Philip Steadman, David Hockney, Dr. Colin Blakemore
+  cast: Tim Jenison, Penn Jillette, Martin Mull, Professor Philip Steadman, David
+    Hockney, Dr. Colin Blakemore
   genre: Documentary
   running_time: 80
   language: English
-  description: "Tim Jenison, a Texas based inventor, attempts to solve one of the greatest mysteries in all art: how did 17th century Dutch Master Johannes Vermeer manage to paint so photo-realistically—150 years before the invention of photography?"
+  description: 'Tim Jenison, a Texas based inventor, attempts to solve one of the
+    greatest mysteries in all art: how did 17th century Dutch Master Johannes Vermeer
+    manage to paint so photo-realistically—150 years before the invention of photography?'
   url: http://www.sonyclassics.com/timsvermeer/
   imdb_id: tt3089388
   trailer:
-    aspect_ratio: "16:9"
+    aspect_ratio: '16:9'
     vimeo_id: 116416339
 images:
   background: http://filmsandconversations.com/images/background-tims-vermeer.jpg
 ---
+
 Tim Jenison, a Texas based inventor, attempts to solve one of the greatest mysteries in all art: how did 17th century Dutch Master Johannes Vermeer (“Girl with a Pearl Earring”) manage to paint so photo-realistically—150 years before the invention of photography?  The epic research project Jenison embarks on to test his theory is as extraordinary as what he discovers.  Spanning eight years, Jenison’s adventure takes him to Delft, Holland, where Vermeer painted his masterpieces, on a pilgrimage to the North coast of Yorkshire to meet artist David Hockney, and even to Buckingham Palace to see a Vermeer masterpiece in the collection of the Queen.

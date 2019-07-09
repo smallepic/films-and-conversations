@@ -1,6 +1,7 @@
 ---
-layout: application
 title: Finding Vivian Maier
+date: 2015-02-26 00:00:00 Z
+layout: application
 screening:
   number: 2
   date: 2015-02-26 19:30:00 CET
@@ -23,16 +24,19 @@ film:
   genre: Documentary
   running_time: 84
   language: English
-  description: A documentary on the late Vivian Maier, a nanny whose previously unknown cache of 100,000 photographs earned her a posthumous reputation as one of the most accomplished street photographers.
+  description: A documentary on the late Vivian Maier, a nanny whose previously unknown
+    cache of 100,000 photographs earned her a posthumous reputation as one of the
+    most accomplished street photographers.
   url: http://www.findingvivianmaier.com/
   imdb_id: tt2714900
   trailer:
-    aspect_ratio: "16:9"
+    aspect_ratio: '16:9'
     vimeo_id: 118624692
 exhibition:
-  start_date: 2015-02-19
-  end_date: 2015-04-12
-  description: Why not follow up the screening with a visit to the *Vivian Maier—Street Photographer* exhibition—a selection of 120 works presented by [Friends of Willy-Brandt-Haus](http://www.freundeskreis-wbh.de/ausstellung/vivian-maier/).
+  start_date: 2015-02-19 00:00:00 Z
+  end_date: 2015-04-12 00:00:00 Z
+  description: Why not follow up the screening with a visit to the *Vivian Maier—Street
+    Photographer* exhibition—a selection of 120 works presented by [Friends of Willy-Brandt-Haus](http://www.freundeskreis-wbh.de/ausstellung/vivian-maier/).
   url: http://www.freundeskreis-wbh.de/ausstellung/vivian-maier/
   venue:
     name: Willy-Brandt-Haus
@@ -45,4 +49,5 @@ exhibition:
 images:
   background: http://filmsandconversations.com/images/background-finding-vivian-maier.jpg
 ---
+
 Who is Vivian Maier?  Now considered one of the 20th century’s greatest street photographers, Vivian Maier was a mysterious nanny who secretly took over 100,000 photographs that went unseen during her lifetime.  Since buying her work by chance at auction, amateur historian John Maloof has crusaded to put this prolific photographer in the history books.  Maier’s strange and riveting life and art are revealed through never-before-seen photographs, films, and interviews with dozens who thought they knew her.

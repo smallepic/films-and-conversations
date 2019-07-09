@@ -1,6 +1,7 @@
 ---
-layout: null
+layout: 
 ---
+
 {% assign page = site.posts.first %}
 Hey [firstname, fallback=fellow filmgoer],
 

@@ -1,6 +1,7 @@
 ---
-layout: application
 title: Objectified
+date: 2015-07-30 00:00:00 Z
+layout: application
 screening:
   number: 7
   date: 2016-07-30 19:30:00 CET
@@ -19,19 +20,22 @@ screening:
 film:
   title: Objectified
   director: Gary Hustwit
-  cast: Paola Antonelli, Chris Bangle, Naoto Fukasawa, Jonathan Ive, Bill Moggridge, Marc Newson, Dieter Rams, Karim Rashid
+  cast: Paola Antonelli, Chris Bangle, Naoto Fukasawa, Jonathan Ive, Bill Moggridge,
+    Marc Newson, Dieter Rams, Karim Rashid
   genre: Documentary
   running_time: 75
   language: English
-  description: Wim Wender’s deeply considered portrait of visionary photographer, Sebastião Salgado.
+  description: Wim Wender’s deeply considered portrait of visionary photographer,
+    Sebastião Salgado.
   url: http://objectifiedfilm.com/
   imdb_id: tt1241325
   trailer:
-    aspect_ratio: "16:9"
+    aspect_ratio: '16:9'
     vimeo_id: 134029285
 images:
   background: http://filmsandconversations.com/images/background-objectified.png
 ---
+
 Objectified is a feature-length documentary about our complex relationship with manufactured objects and, by extension, the people who design them.  It’s a look at the creativity at work behind everything from toothbrushes to tech gadgets.  It’s about the designers who re-examine, re-evaluate and re-invent our manufactured environment on a daily basis.  It’s about personal expression, identity, consumerism, and sustainability.
 
 Through vérité footage and in-depth conversations, the film documents the creative processes of some of the world’s most influential product designers, and looks at how the things they make impact our lives.  What can we learn about who we are, and who we want to be, from the objects with which we surround ourselves?
